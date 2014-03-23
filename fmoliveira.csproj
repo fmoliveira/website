@@ -57,6 +57,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\fmoliveira.css">
+      <DependentUpon>fmoliveira.scss</DependentUpon>
+    </Content>
     <Content Include="css\fmoliveira.scss">
       <Compile>True</Compile>
       <Minify>True</Minify>
@@ -73,15 +76,24 @@
   <ItemGroup>
     <None Include="index.php" />
     <Content Include="css\normalize.css" />
+    <Content Include="imagens\blog.png" />
+    <Content Include="imagens\contato.png" />
+    <Content Include="imagens\curriculo.png" />
+    <Content Include="imagens\delicious.png" />
+    <Content Include="imagens\linkedin.png" />
+    <Content Include="imagens\paixoes.png" />
+    <Content Include="imagens\fmoliveira.png" />
+    <Content Include="imagens\projetos.png" />
+    <Content Include="imagens\sobre-mim.png" />
+    <Content Include="imagens\soundcloud.png" />
+    <Content Include="imagens\twitter.png" />
     <Content Include="js\jquery-1.11.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="imagens\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
