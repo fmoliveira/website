@@ -25,7 +25,7 @@
             </nav>
 
             <nav>
-                <ul id="social">
+                <ul id="social" class="menu-horizontal">
                     <li><a href="#" class="twitter"><img src="imagens/twitter.png" alt="Twitter" /></a></li>
                     <li><a href="#" class="linkedin"><img src="imagens/linkedin.png" alt="Twitter" /></a></li>
                     <li><a href="#" class="delicious"><img src="imagens/delicious.png" alt="Twitter" /></a></li>

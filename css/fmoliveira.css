@@ -6,6 +6,13 @@ body {
   margin: 0 auto;
   padding: 0; }
 
+div.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+  font-size: 0;
+  margin-top: -1px; }
+
 section#wrapper {
   display: block;
   width: 100%;
@@ -23,13 +30,37 @@ section#wrapper {
     width: 260px;
     height: 100%; }
     section#wrapper div#menu nav, section#wrapper div#submenu nav {
-      border: 1px solid #f00;
-      width: 240px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 240px; }
       section#wrapper div#menu nav ul, section#wrapper div#submenu nav ul {
+        margin: 0 auto;
         list-style: none;
-        padding: 0; }
+        padding: 0.5em 0; }
         section#wrapper div#menu nav ul #perfil > li, section#wrapper div#submenu nav ul #perfil > li {
           text-align: center;
           color: #f00; }
+      section#wrapper div#menu nav ul#perfil li, section#wrapper div#submenu nav ul#perfil li {
+        text-align: center; }
+      section#wrapper div#menu nav ul.menu-horizontal, section#wrapper div#submenu nav ul.menu-horizontal {
+        display: table; }
+        section#wrapper div#menu nav ul.menu-horizontal li, section#wrapper div#submenu nav ul.menu-horizontal li {
+          float: left; }
+          section#wrapper div#menu nav ul.menu-horizontal li:hover, section#wrapper div#submenu nav ul.menu-horizontal li:hover {
+            background: #00aaff;
+            color: black;
+            cursor: pointer; }
+          section#wrapper div#menu nav ul.menu-horizontal li img, section#wrapper div#submenu nav ul.menu-horizontal li img {
+            vertical-align: bottom;
+            padding: 5px 8px; }
+      section#wrapper div#menu nav ul.menu-vertical li, section#wrapper div#submenu nav ul.menu-vertical li {
+        padding: 8px 5px; }
+        section#wrapper div#menu nav ul.menu-vertical li:hover, section#wrapper div#submenu nav ul.menu-vertical li:hover {
+          background: #00aaff;
+          color: black;
+          cursor: pointer; }
+        section#wrapper div#menu nav ul.menu-vertical li a, section#wrapper div#submenu nav ul.menu-vertical li a {
+          line-height: 24px; }
+        section#wrapper div#menu nav ul.menu-vertical li img, section#wrapper div#submenu nav ul.menu-vertical li img {
+          vertical-align: bottom;
+          margin-right: 3px; }
 

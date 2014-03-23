@@ -1,6 +1,9 @@
 ﻿$menu_back: #222;
 $menu_fore: #fff;
 
+$menu_hover_back: #0af;
+$menu_hover_fore: #000;
+
 $submenu_back: #999;
 
 html, body
@@ -13,6 +16,15 @@ body
 {
 	margin: 0 auto;
 	padding: 0;
+}
+
+div.clear
+{
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+	font-size: 0;
+	margin-top: -1px;
 }
 
 section#wrapper
@@ -46,19 +58,76 @@ section#wrapper
 
 		nav
 		{
-			border: 1px solid #f00;
-			width: 240px;
 			margin: 0 auto;
+			width: 240px;
 
 			ul
 			{
+				margin: 0 auto;
 				list-style: none;
-				padding: 0;
+				padding: 0.5em 0;
 
 				#perfil > li
 				{
 					text-align: center;
 					color: #f00;
+				}
+			}
+
+			ul#perfil
+			{
+				li
+				{
+					text-align: center;
+				}
+			}
+
+			ul.menu-horizontal
+			{
+				display: table;
+
+				li
+				{
+					float: left;
+
+					&:hover
+					{
+						background: $menu_hover_back;
+						color: $menu_hover_fore;
+						cursor: pointer;
+					}
+
+					img
+					{
+						vertical-align: bottom;
+						padding: 5px 8px;
+					}
+				}
+			}
+
+			ul.menu-vertical
+			{
+				li
+				{
+					padding: 8px 5px;
+
+					&:hover
+					{
+						background: $menu_hover_back;
+						color: $menu_hover_fore;
+						cursor: pointer;
+					}
+
+					a
+					{
+						line-height: 24px;
+					}
+
+					img
+					{
+						vertical-align: bottom;
+						margin-right: 3px;
+					}
 				}
 			}
 		}
