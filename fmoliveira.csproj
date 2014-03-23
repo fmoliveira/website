@@ -76,6 +76,7 @@
   <ItemGroup>
     <None Include="index.php" />
     <Content Include="css\normalize.css" />
+    <Content Include="imagens\bg.jpg" />
     <Content Include="imagens\blog.png" />
     <Content Include="imagens\contato.png" />
     <Content Include="imagens\curriculo.png" />
