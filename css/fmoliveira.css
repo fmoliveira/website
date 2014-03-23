@@ -1,0 +1,35 @@
+html, body {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  margin: 0 auto;
+  padding: 0; }
+
+section#wrapper {
+  display: block;
+  width: 100%;
+  height: 100%; }
+  section#wrapper div#menu {
+    background: #222222;
+    color: white; }
+    section#wrapper div#menu a {
+      color: white;
+      text-decoration: none; }
+  section#wrapper div#submenu {
+    background: #999999; }
+  section#wrapper div#menu, section#wrapper div#submenu {
+    float: left;
+    width: 260px;
+    height: 100%; }
+    section#wrapper div#menu nav, section#wrapper div#submenu nav {
+      border: 1px solid #f00;
+      width: 240px;
+      margin: 0 auto; }
+      section#wrapper div#menu nav ul, section#wrapper div#submenu nav ul {
+        list-style: none;
+        padding: 0; }
+        section#wrapper div#menu nav ul #perfil > li, section#wrapper div#submenu nav ul #perfil > li {
+          text-align: center;
+          color: #f00; }
+

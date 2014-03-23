@@ -1,0 +1,70 @@
+﻿$menu_back: #222;
+$menu_fore: #fff;
+
+$submenu_back: #999;
+
+html, body
+{
+	overflow: hidden;
+	height: 100%;
+}
+
+body
+{
+	margin: 0 auto;
+	padding: 0;
+}
+
+section#wrapper
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+	div#menu
+	{
+		background: $menu_back;
+		color: $menu_fore;
+
+		a
+		{
+			color: $menu_fore;
+			text-decoration: none;
+		}
+	}
+
+	div#submenu
+	{
+		background: $submenu_back;
+	}
+
+	div#menu, div#submenu
+	{
+		float: left;
+		width: 260px;
+		height: 100%;
+
+		nav
+		{
+			border: 1px solid #f00;
+			width: 240px;
+			margin: 0 auto;
+
+			ul
+			{
+				list-style: none;
+				padding: 0;
+
+				#perfil > li
+				{
+					text-align: center;
+					color: #f00;
+				}
+			}
+		}
+	}
+
+	div#conteudo
+	{
+	}
+}
