@@ -1,10 +1,25 @@
-﻿$menu_back: #222;
+﻿$menu_back: 0.8;
 $menu_fore: #fff;
 
 $menu_hover_back: #0af;
 $menu_hover_fore: #000;
 
-$submenu_back: #999;
+$submenu_header: #bef;
+
+$submenu_back: 0.5;
+$submenu_fore: #fff;
+
+$submenu_hover_back: #7df;
+$submenu_hover_fore: #000;
+
+html
+{
+	background: url(../imagens/bg.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
 
 html, body
 {
@@ -35,8 +50,14 @@ section#wrapper
 
 	div#menu
 	{
-		background: $menu_back;
+		background-color: rgba(0, 0, 0, $menu_back);
 		color: $menu_fore;
+
+		ul.menu-horizontal > li:hover, ul.menu-vertical > li:hover
+		{
+			background: $menu_hover_back;
+			color: $menu_hover_fore;
+		}
 
 		a
 		{
@@ -47,7 +68,19 @@ section#wrapper
 
 	div#submenu
 	{
-		background: $submenu_back;
+		background-color: rgba(0, 0, 0, $submenu_back);
+
+		ul.menu-horizontal > li:hover, ul.menu-vertical > li:hover
+		{
+			background: $submenu_hover_back;
+			color: $submenu_hover_fore;
+		}
+
+		a
+		{
+			color: $submenu_fore;
+			text-decoration: none;
+		}
 	}
 
 	div#menu, div#submenu
@@ -55,6 +88,17 @@ section#wrapper
 		float: left;
 		width: 260px;
 		height: 100%;
+		opacity: 0.8;
+
+		header
+		{
+			margin: 0 auto;
+			padding-top: 0.5em;
+			width: 240px;
+			font-size: 22px;
+			font-weight: bold;
+			color: $submenu_header;
+		}
 
 		nav
 		{
@@ -92,8 +136,6 @@ section#wrapper
 
 					&:hover
 					{
-						background: $menu_hover_back;
-						color: $menu_hover_fore;
 						cursor: pointer;
 					}
 
@@ -113,8 +155,6 @@ section#wrapper
 
 					&:hover
 					{
-						background: $menu_hover_back;
-						color: $menu_hover_fore;
 						cursor: pointer;
 					}
 

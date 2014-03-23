@@ -1,3 +1,10 @@
+html {
+  background: url(../imagens/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 html, body {
   overflow: hidden;
   height: 100%; }
@@ -18,17 +25,34 @@ section#wrapper {
   width: 100%;
   height: 100%; }
   section#wrapper div#menu {
-    background: #222222;
+    background-color: rgba(0, 0, 0, 0.8);
     color: white; }
+    section#wrapper div#menu ul.menu-horizontal > li:hover, section#wrapper div#menu ul.menu-vertical > li:hover {
+      background: #00aaff;
+      color: black; }
     section#wrapper div#menu a {
       color: white;
       text-decoration: none; }
   section#wrapper div#submenu {
-    background: #999999; }
+    background-color: rgba(0, 0, 0, 0.5); }
+    section#wrapper div#submenu ul.menu-horizontal > li:hover, section#wrapper div#submenu ul.menu-vertical > li:hover {
+      background: #77ddff;
+      color: black; }
+    section#wrapper div#submenu a {
+      color: white;
+      text-decoration: none; }
   section#wrapper div#menu, section#wrapper div#submenu {
     float: left;
     width: 260px;
-    height: 100%; }
+    height: 100%;
+    opacity: 0.8; }
+    section#wrapper div#menu header, section#wrapper div#submenu header {
+      margin: 0 auto;
+      padding-top: 0.5em;
+      width: 240px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #bbeeff; }
     section#wrapper div#menu nav, section#wrapper div#submenu nav {
       margin: 0 auto;
       width: 240px; }
@@ -46,8 +70,6 @@ section#wrapper {
         section#wrapper div#menu nav ul.menu-horizontal li, section#wrapper div#submenu nav ul.menu-horizontal li {
           float: left; }
           section#wrapper div#menu nav ul.menu-horizontal li:hover, section#wrapper div#submenu nav ul.menu-horizontal li:hover {
-            background: #00aaff;
-            color: black;
             cursor: pointer; }
           section#wrapper div#menu nav ul.menu-horizontal li img, section#wrapper div#submenu nav ul.menu-horizontal li img {
             vertical-align: bottom;
@@ -55,8 +77,6 @@ section#wrapper {
       section#wrapper div#menu nav ul.menu-vertical li, section#wrapper div#submenu nav ul.menu-vertical li {
         padding: 8px 5px; }
         section#wrapper div#menu nav ul.menu-vertical li:hover, section#wrapper div#submenu nav ul.menu-vertical li:hover {
-          background: #00aaff;
-          color: black;
           cursor: pointer; }
         section#wrapper div#menu nav ul.menu-vertical li a, section#wrapper div#submenu nav ul.menu-vertical li a {
           line-height: 24px; }

@@ -47,11 +47,19 @@
         </div>
 
         <div id="submenu">
-            
+            <header>Projetos</header>
+            <nav>
+                <ul id="sublinks" class="menu-vertical">
+                    <li><a href="#">Aventura Bíblica</a></li>
+                    <li><a href="#">Pizza Delivery</a></li>
+                    <li><a href="#">Muito Louvor</a></li>
+                    <li><a href="#">Tigra</a></li>
+                </ul>
+            </nav>
         </div>
 
         <div id="conteudo">
-            
+
         </div>
 
         <div class="clear"></div>
