@@ -6,7 +6,6 @@ html {
   background-size: cover; }
 
 html, body {
-  overflow: hidden;
   height: 100%; }
 
 body {
@@ -34,7 +33,7 @@ section#wrapper {
       color: white;
       text-decoration: none; }
   section#wrapper div#submenu {
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.6); }
     section#wrapper div#submenu ul.menu-horizontal > li:hover, section#wrapper div#submenu ul.menu-vertical > li:hover {
       background: #77ddff;
       color: black; }
@@ -42,10 +41,9 @@ section#wrapper {
       color: white;
       text-decoration: none; }
   section#wrapper div#menu, section#wrapper div#submenu {
-    float: left;
     width: 260px;
     height: 100%;
-    opacity: 0.8; }
+    float: left; }
     section#wrapper div#menu header, section#wrapper div#submenu header {
       margin: 0 auto;
       padding-top: 0.5em;
@@ -83,4 +81,10 @@ section#wrapper {
         section#wrapper div#menu nav ul.menu-vertical li img, section#wrapper div#submenu nav ul.menu-vertical li img {
           vertical-align: bottom;
           margin-right: 3px; }
+  section#wrapper div#conteudo {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.15); }
 

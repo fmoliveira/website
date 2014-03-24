@@ -1,4 +1,4 @@
-﻿$menu_back: 0.8;
+﻿$menu_back: 0.80;
 $menu_fore: #fff;
 
 $menu_hover_back: #0af;
@@ -6,11 +6,13 @@ $menu_hover_fore: #000;
 
 $submenu_header: #bef;
 
-$submenu_back: 0.5;
+$submenu_back: 0.60;
 $submenu_fore: #fff;
 
 $submenu_hover_back: #7df;
 $submenu_hover_fore: #000;
+
+$content_back: 0.15;
 
 html
 {
@@ -23,7 +25,7 @@ html
 
 html, body
 {
-	overflow: hidden;
+	//overflow: hidden;
 	height: 100%;
 }
 
@@ -85,10 +87,9 @@ section#wrapper
 
 	div#menu, div#submenu
 	{
-		float: left;
 		width: 260px;
 		height: 100%;
-		opacity: 0.8;
+		float: left;
 
 		header
 		{
@@ -175,5 +176,10 @@ section#wrapper
 
 	div#conteudo
 	{
+		width: auto;
+		height: 100%;
+		overflow: hidden;
+		padding: 0 10px;
+		background-color: rgba(0, 0, 0, $content_back);
 	}
 }
