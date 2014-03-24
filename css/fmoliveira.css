@@ -6,6 +6,7 @@ html {
   background-size: cover; }
 
 html, body {
+  overflow: hidden;
   height: 100%; }
 
 body {
@@ -24,18 +25,20 @@ section#wrapper {
   width: 100%;
   height: 100%; }
   section#wrapper div#menu {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
     color: white; }
     section#wrapper div#menu ul.menu-horizontal > li:hover, section#wrapper div#menu ul.menu-vertical > li:hover {
-      background: #00aaff;
+      border: 1px solid rgba(50, 170, 255, 0.3);
+      background-color: rgba(50, 170, 255, 0.6);
       color: black; }
     section#wrapper div#menu a {
       color: white;
       text-decoration: none; }
   section#wrapper div#submenu {
-    background-color: rgba(0, 0, 0, 0.6); }
+    background-color: rgba(0, 0, 0, 0.55); }
     section#wrapper div#submenu ul.menu-horizontal > li:hover, section#wrapper div#submenu ul.menu-vertical > li:hover {
-      background: #77ddff;
+      border: 1px solid rgba(70, 190, 255, 0.3);
+      background-color: rgba(70, 190, 255, 0.6);
       color: black; }
     section#wrapper div#submenu a {
       color: white;
@@ -66,17 +69,24 @@ section#wrapper {
       section#wrapper div#menu nav ul.menu-horizontal, section#wrapper div#submenu nav ul.menu-horizontal {
         display: table; }
         section#wrapper div#menu nav ul.menu-horizontal li, section#wrapper div#submenu nav ul.menu-horizontal li {
-          float: left; }
+          float: left;
+          margin: 0 3px;
+          padding: 5px 10px;
+          border: 1px solid rgba(0, 0, 0, 0.5);
+          background-color: rgba(120, 120, 120, 0.1); }
           section#wrapper div#menu nav ul.menu-horizontal li:hover, section#wrapper div#submenu nav ul.menu-horizontal li:hover {
             cursor: pointer; }
           section#wrapper div#menu nav ul.menu-horizontal li img, section#wrapper div#submenu nav ul.menu-horizontal li img {
-            vertical-align: bottom;
-            padding: 5px 8px; }
+            vertical-align: bottom; }
       section#wrapper div#menu nav ul.menu-vertical li, section#wrapper div#submenu nav ul.menu-vertical li {
-        padding: 8px 5px; }
+        margin-bottom: 5px;
+        padding: 10px 5px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: rgba(120, 120, 120, 0.1); }
         section#wrapper div#menu nav ul.menu-vertical li:hover, section#wrapper div#submenu nav ul.menu-vertical li:hover {
           cursor: pointer; }
         section#wrapper div#menu nav ul.menu-vertical li a, section#wrapper div#submenu nav ul.menu-vertical li a {
+          margin-left: 5px;
           line-height: 24px; }
         section#wrapper div#menu nav ul.menu-vertical li img, section#wrapper div#submenu nav ul.menu-vertical li img {
           vertical-align: bottom;
@@ -86,5 +96,5 @@ section#wrapper {
     height: 100%;
     overflow: hidden;
     padding: 0 10px;
-    background-color: rgba(0, 0, 0, 0.15); }
+    background-color: rgba(0, 0, 0, 0.05); }
 

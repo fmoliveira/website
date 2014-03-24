@@ -1,18 +1,18 @@
-﻿$menu_back: 0.80;
+﻿$menu_back: 0.75;
 $menu_fore: #fff;
 
-$menu_hover_back: #0af;
+$menu_hover_back: #3af;
 $menu_hover_fore: #000;
 
 $submenu_header: #bef;
 
-$submenu_back: 0.60;
+$submenu_back: 0.55;
 $submenu_fore: #fff;
 
 $submenu_hover_back: #7df;
 $submenu_hover_fore: #000;
 
-$content_back: 0.15;
+$content_back: 0.05;
 
 html
 {
@@ -25,7 +25,7 @@ html
 
 html, body
 {
-	//overflow: hidden;
+	overflow: hidden;
 	height: 100%;
 }
 
@@ -57,7 +57,8 @@ section#wrapper
 
 		ul.menu-horizontal > li:hover, ul.menu-vertical > li:hover
 		{
-			background: $menu_hover_back;
+			border: 1px solid rgba(50, 170, 255, 0.3);
+			background-color: rgba(50, 170, 255, 0.6);
 			color: $menu_hover_fore;
 		}
 
@@ -74,7 +75,8 @@ section#wrapper
 
 		ul.menu-horizontal > li:hover, ul.menu-vertical > li:hover
 		{
-			background: $submenu_hover_back;
+			border: 1px solid rgba(70, 190, 255, 0.3);
+			background-color: rgba(70, 190, 255, 0.6);
 			color: $submenu_hover_fore;
 		}
 
@@ -134,6 +136,10 @@ section#wrapper
 				li
 				{
 					float: left;
+					margin: 0 3px;
+					padding: 5px 10px;
+					border: 1px solid rgba(0, 0, 0, 0.50);
+					background-color: rgba(120, 120, 120, 0.10);
 
 					&:hover
 					{
@@ -143,7 +149,6 @@ section#wrapper
 					img
 					{
 						vertical-align: bottom;
-						padding: 5px 8px;
 					}
 				}
 			}
@@ -152,7 +157,10 @@ section#wrapper
 			{
 				li
 				{
-					padding: 8px 5px;
+					margin-bottom: 5px;
+					padding: 10px 5px;
+					border: 1px solid rgba(0, 0, 0, 0.50);
+					background-color: rgba(120, 120, 120, 0.10);
 
 					&:hover
 					{
@@ -161,6 +169,7 @@ section#wrapper
 
 					a
 					{
+						margin-left: 5px;
 						line-height: 24px;
 					}
 
