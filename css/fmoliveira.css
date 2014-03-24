@@ -69,6 +69,8 @@ section#wrapper {
           color: #f00; }
       section#wrapper div#menu nav ul#perfil li, section#wrapper div#submenu nav ul#perfil li {
         text-align: center; }
+        section#wrapper div#menu nav ul#perfil li img, section#wrapper div#submenu nav ul#perfil li img {
+          border-radius: 100px; }
         section#wrapper div#menu nav ul#perfil li strong, section#wrapper div#submenu nav ul#perfil li strong {
           font-family: 'Miltonian Tattoo', cursive;
           font-size: 22px; }

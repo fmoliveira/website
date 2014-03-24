@@ -22,7 +22,7 @@
         <div id="menu">
             <nav>
                 <ul id="perfil">
-                    <li><img src="imagens/fmoliveira.png" alt="Filipe Oliveira" /></li>
+                    <li><img src="imagens/fmoliveira.jpg" alt="Filipe Oliveira" /></li>
                     <li><strong>Filipe Oliveira</strong></li>
                     <li><em>Engenheiro de Computação</em></li>
                 </ul>
