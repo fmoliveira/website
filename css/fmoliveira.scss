@@ -4,7 +4,7 @@ $menu_fore: #fff;
 $menu_hover_back: #3af;
 $menu_hover_fore: #000;
 
-$submenu_header: #bef;
+$submenu_header: #7df;
 
 $submenu_back: 0.55;
 $submenu_fore: #fff;
@@ -12,7 +12,7 @@ $submenu_fore: #fff;
 $submenu_hover_back: #7df;
 $submenu_hover_fore: #000;
 
-$content_back: 0.05;
+$content_back: 0.15;
 
 html
 {
@@ -33,6 +33,9 @@ body
 {
 	margin: 0 auto;
 	padding: 0;
+	font-family: 'Kite One', sans-serif;
+	font-size: 1em;
+	color: #ccc;
 }
 
 div.clear
@@ -126,6 +129,18 @@ section#wrapper
 				li
 				{
 					text-align: center;
+
+					strong
+					{
+						font-family: 'Miltonian Tattoo', cursive;
+						font-size: 22px;
+					}
+
+					em
+					{
+						font-family: 'Kite One', sans-serif;
+						font-size: 14px;
+					}
 				}
 			}
 

@@ -4,6 +4,10 @@
     <!-- Meta tags -->
     <title>Filipe Oliveira</title>
 
+    <!-- Web fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Miltonian+Tattoo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Kite+One' rel='stylesheet' type='text/css'>
+
     <!-- Folhas de estilo -->
     <link rel="stylesheet" href="css/normalize.css"/>
     <link rel="stylesheet" href="css/fmoliveira.css"/>
@@ -20,7 +24,7 @@
                 <ul id="perfil">
                     <li><img src="imagens/fmoliveira.png" alt="Filipe Oliveira" /></li>
                     <li><strong>Filipe Oliveira</strong></li>
-                    <li>Engenheiro de Computação</li>
+                    <li><em>Engenheiro de Computação</em></li>
                 </ul>
             </nav>
 
