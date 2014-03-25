@@ -27,6 +27,13 @@ section#wrapper {
   display: block;
   width: 100%;
   height: 100%; }
+  section#wrapper div#progresso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #3bf; }
   section#wrapper div#menu {
     background-color: rgba(0, 0, 0, 0.75);
     color: white; }

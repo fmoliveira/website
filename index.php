@@ -14,10 +14,13 @@
 
     <!-- Scripts -->
     <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="js/fmo.progresso.js"></script>
 </head>
 <body>
 
     <section id="wrapper">
+
+        <div id="progresso"></div>
 
         <div id="menu">
             <nav>

@@ -80,14 +80,15 @@
     <Content Include="imagens\blog.png" />
     <Content Include="imagens\contato.png" />
     <Content Include="imagens\curriculo.png" />
-    <Content Include="imagens\delicious.png" />
+    <Content Include="imagens\fmoliveira.jpg" />
+    <Content Include="imagens\github.png" />
     <Content Include="imagens\linkedin.png" />
     <Content Include="imagens\paixoes.png" />
-    <Content Include="imagens\fmoliveira.png" />
     <Content Include="imagens\projetos.png" />
     <Content Include="imagens\sobre-mim.png" />
     <Content Include="imagens\soundcloud.png" />
     <Content Include="imagens\twitter.png" />
+    <Content Include="js\fmoliveira.js" />
     <Content Include="js\jquery-1.11.0.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
