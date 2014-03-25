@@ -30,10 +30,10 @@
 
             <nav>
                 <ul id="social" class="menu-horizontal">
+                    <li><a href="#" class="github"><img src="imagens/github.png" alt="GitHub" /></a></li>
                     <li><a href="#" class="twitter"><img src="imagens/twitter.png" alt="Twitter" /></a></li>
-                    <li><a href="#" class="linkedin"><img src="imagens/linkedin.png" alt="Twitter" /></a></li>
-                    <li><a href="#" class="delicious"><img src="imagens/delicious.png" alt="Twitter" /></a></li>
-                    <li><a href="#" class="soundcloud"><img src="imagens/soundcloud.png" alt="Twitter" /></a></li>
+                    <li><a href="#" class="linkedin"><img src="imagens/linkedin.png" alt="LinkedIn" /></a></li>
+                    <li><a href="#" class="soundcloud"><img src="imagens/soundcloud.png" alt="SoundCloud" /></a></li>
                 </ul>
                 <div class="clear"></div>
             </nav>

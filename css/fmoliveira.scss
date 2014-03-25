@@ -132,7 +132,7 @@ section#wrapper
 
 					img
 					{
-						border-radius: 100px;
+						border-radius: 10px;
 					}
 
 					strong
@@ -210,5 +210,11 @@ section#wrapper
 		overflow: hidden;
 		padding: 0 10px;
 		background-color: rgba(0, 0, 0, $content_back);
+
+		p
+		{
+			text-indent: 4em;
+			text-align: justify;
+		}
 	}
 }

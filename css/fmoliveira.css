@@ -70,7 +70,7 @@ section#wrapper {
       section#wrapper div#menu nav ul#perfil li, section#wrapper div#submenu nav ul#perfil li {
         text-align: center; }
         section#wrapper div#menu nav ul#perfil li img, section#wrapper div#submenu nav ul#perfil li img {
-          border-radius: 100px; }
+          border-radius: 10px; }
         section#wrapper div#menu nav ul#perfil li strong, section#wrapper div#submenu nav ul#perfil li strong {
           font-family: 'Miltonian Tattoo', cursive;
           font-size: 22px; }
@@ -108,4 +108,7 @@ section#wrapper {
     overflow: hidden;
     padding: 0 10px;
     background-color: rgba(0, 0, 0, 0.15); }
+    section#wrapper div#conteudo p {
+      text-indent: 4em;
+      text-align: justify; }
 
