@@ -33,10 +33,10 @@
 
             <nav>
                 <ul id="social" class="menu-horizontal">
-                    <li><a href="#" class="github"><img src="imagens/github.png" alt="GitHub" /></a></li>
-                    <li><a href="#" class="twitter"><img src="imagens/twitter.png" alt="Twitter" /></a></li>
-                    <li><a href="#" class="linkedin"><img src="imagens/linkedin.png" alt="LinkedIn" /></a></li>
-                    <li><a href="#" class="soundcloud"><img src="imagens/soundcloud.png" alt="SoundCloud" /></a></li>
+                    <li><a href="https://github.com/fmoliveira" target="_blank" class="github"><img src="imagens/github.png" alt="GitHub" /></a></li>
+                    <li><a href="https://twitter.com/tfmoliveira" target="_blank" class="twitter"><img src="imagens/twitter.png" alt="Twitter" /></a></li>
+                    <li><a href="http://br.linkedin.com/in/oliveirafilipe" target="_blank" class="linkedin"><img src="imagens/linkedin.png" alt="LinkedIn" /></a></li>
+                    <li><a href="https://soundcloud.com/fmoliveira" target="_blank" class="soundcloud"><img src="imagens/soundcloud.png" alt="SoundCloud" /></a></li>
                 </ul>
                 <div class="clear"></div>
             </nav>
