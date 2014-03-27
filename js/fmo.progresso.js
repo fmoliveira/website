@@ -1,6 +1,5 @@
 ﻿function hide() {
     var $progresso = $('div#progresso');
-    console.log($progresso.css('opacity'));
     $progresso.css('opacity', ($progresso.css('opacity') - 0.05));
 
     if ($progresso.css('opacity') > 0.1) {

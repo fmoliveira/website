@@ -66,6 +66,10 @@
       <CompileStyle>Nested</CompileStyle>
       <DebugInfo>False</DebugInfo>
     </Content>
+    <Content Include="backend\OAuth.php" />
+    <Content Include="backend\settings.php" />
+    <Content Include="backend\tumblr.core.php" />
+    <Content Include="backend\tumblr.php" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -89,7 +93,9 @@
     <Content Include="imagens\soundcloud.png" />
     <Content Include="imagens\twitter.png" />
     <Content Include="js\fmo.progresso.js" />
+    <Content Include="js\fmo.tumblr.js" />
     <Content Include="js\jquery-1.11.0.min.js" />
+    <Content Include="js\moment.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
