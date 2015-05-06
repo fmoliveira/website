@@ -1,0 +1,66 @@
+body {
+    padding-top: 50px;
+	overflow-y: scroll;
+}
+
+.avatar {
+    border: 1px solid #999;
+    border-radius: 10%;
+}
+
+.fa.fa-fr {
+    margin-right: 0.5em;
+}
+
+.starter-template, .page-template {
+    padding: 40px 15px;
+}
+
+.starter-template {
+    text-align: center;
+}
+
+.skill-set {
+	margin-top: 1em;
+}
+
+/* custom bootstrap navbar */
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover {
+    color: rgba(255, 255, 255, 1);
+}
+.navbar-default {
+    font-size: 14px;
+    background-color: rgba(0, 191, 255, 1);
+    border-width: 1px;
+    border-radius: 4px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 191, 255, 1);
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(92, 212, 255, 1);
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(92, 212, 255, 1);
+}
+.navbar-default .navbar-toggle {
+    border-color: #5cd4ff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+    background-color: #5cd4ff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #5cd4ff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #00bfff;
+}
