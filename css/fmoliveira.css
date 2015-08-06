@@ -1,0 +1,121 @@
+html {
+  background: url(../imagens/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+html, body {
+  overflow: hidden;
+  height: 100%; }
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Kite One', sans-serif;
+  font-size: 1em;
+  color: #ccc; }
+
+div.clear {
+  clear: both;
+  height: 1px;
+  overflow: hidden;
+  font-size: 0;
+  margin-top: -1px; }
+
+section#wrapper {
+  display: block;
+  width: 100%;
+  height: 100%; }
+  section#wrapper div#progresso {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background: #3bf; }
+  section#wrapper div#menu {
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white; }
+    section#wrapper div#menu ul.menu-horizontal > li:hover, section#wrapper div#menu ul.menu-vertical > li:hover {
+      border: 1px solid rgba(50, 170, 255, 0.3);
+      background-color: rgba(50, 170, 255, 0.6);
+      color: black; }
+    section#wrapper div#menu a {
+      color: white;
+      text-decoration: none; }
+  section#wrapper div#submenu {
+    background-color: rgba(0, 0, 0, 0.55); }
+    section#wrapper div#submenu ul.menu-horizontal > li:hover, section#wrapper div#submenu ul.menu-vertical > li:hover {
+      border: 1px solid rgba(70, 190, 255, 0.3);
+      background-color: rgba(70, 190, 255, 0.6);
+      color: black; }
+    section#wrapper div#submenu a {
+      color: white;
+      text-decoration: none; }
+  section#wrapper div#menu, section#wrapper div#submenu {
+    width: 260px;
+    height: 100%;
+    float: left; }
+    section#wrapper div#menu header, section#wrapper div#submenu header {
+      margin: 0 auto;
+      padding-top: 0.5em;
+      width: 240px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #77ddff; }
+    section#wrapper div#menu nav, section#wrapper div#submenu nav {
+      margin: 0 auto;
+      width: 240px; }
+      section#wrapper div#menu nav ul, section#wrapper div#submenu nav ul {
+        margin: 0 auto;
+        list-style: none;
+        padding: 0.5em 0; }
+        section#wrapper div#menu nav ul #perfil > li, section#wrapper div#submenu nav ul #perfil > li {
+          text-align: center;
+          color: #f00; }
+      section#wrapper div#menu nav ul#perfil li, section#wrapper div#submenu nav ul#perfil li {
+        text-align: center; }
+        section#wrapper div#menu nav ul#perfil li img, section#wrapper div#submenu nav ul#perfil li img {
+          border-radius: 10px; }
+        section#wrapper div#menu nav ul#perfil li strong, section#wrapper div#submenu nav ul#perfil li strong {
+          font-family: 'Miltonian Tattoo', cursive;
+          font-size: 22px; }
+        section#wrapper div#menu nav ul#perfil li em, section#wrapper div#submenu nav ul#perfil li em {
+          font-family: 'Kite One', sans-serif;
+          font-size: 14px; }
+      section#wrapper div#menu nav ul.menu-horizontal, section#wrapper div#submenu nav ul.menu-horizontal {
+        display: table; }
+        section#wrapper div#menu nav ul.menu-horizontal li, section#wrapper div#submenu nav ul.menu-horizontal li {
+          float: left;
+          margin: 0 3px;
+          padding: 5px 10px;
+          border: 1px solid rgba(0, 0, 0, 0.5);
+          background-color: rgba(120, 120, 120, 0.1); }
+          section#wrapper div#menu nav ul.menu-horizontal li:hover, section#wrapper div#submenu nav ul.menu-horizontal li:hover {
+            cursor: pointer; }
+          section#wrapper div#menu nav ul.menu-horizontal li img, section#wrapper div#submenu nav ul.menu-horizontal li img {
+            vertical-align: bottom; }
+      section#wrapper div#menu nav ul.menu-vertical li, section#wrapper div#submenu nav ul.menu-vertical li {
+        margin-bottom: 5px;
+        padding: 10px 5px;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        background-color: rgba(120, 120, 120, 0.1); }
+        section#wrapper div#menu nav ul.menu-vertical li:hover, section#wrapper div#submenu nav ul.menu-vertical li:hover {
+          cursor: pointer; }
+        section#wrapper div#menu nav ul.menu-vertical li a, section#wrapper div#submenu nav ul.menu-vertical li a {
+          margin-left: 5px;
+          line-height: 24px; }
+        section#wrapper div#menu nav ul.menu-vertical li img, section#wrapper div#submenu nav ul.menu-vertical li img {
+          vertical-align: bottom;
+          margin-right: 3px; }
+  section#wrapper div#conteudo {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.15); }
+    section#wrapper div#conteudo p {
+      text-indent: 4em;
+      text-align: justify; }
+
