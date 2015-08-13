@@ -1,0 +1,28 @@
+{
+  "name": "fmoliveira.github.io",
+  "version": "3.0.0",
+  "private": true,
+  "homepage": "https://github.com/fmoliveira/fmoliveira.github.io",
+  "authors": [
+    "Filipe Oliveira <contato@fmoliveira.com.br>"
+  ],
+  "description": "My personal static website in Gulp.",
+  "main": "gulpfile.js",
+  "moduleType": [
+    "node"
+  ],
+  "keywords": [
+    "personal",
+    "static",
+    "website",
+    "gulp"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

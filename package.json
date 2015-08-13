@@ -1,0 +1,26 @@
+{
+  "name": "fmoliveira.github.io",
+  "version": "3.0.0",
+  "private": true,
+  "description": "My personal static website in Gulp.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmoliveira/fmoliveira.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "static",
+    "website",
+    "gulp"
+  ],
+  "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmoliveira/fmoliveira.github.io/issues"
+  },
+  "homepage": "https://github.com/fmoliveira/fmoliveira.github.io#readme"
+}
