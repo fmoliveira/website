@@ -24,5 +24,9 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "bootswatch": "~3.3.5+2"
+  }
 }
