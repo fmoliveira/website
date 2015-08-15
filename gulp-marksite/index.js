@@ -1,6 +1,7 @@
 var gutil = require('gulp-util'),
 	through = require('through2'),
 	marked = require('marked'),
+	fs = require('fs'),
 	handlebars = require('handlebars');
 
 module.exports = function (options) {
@@ -24,10 +25,24 @@ module.exports = function (options) {
 				callback(new gutil.PluginError('gulp-marksite', err, { fileName: file.path }));
 			}
 
-			file.contents = new Buffer(data);
-			file.path = gutil.replaceExtension(file.path, '.html');
+			fs.readFile(options.layout, 'utf8', function (err, source) {
+				if (err) {
+					callback(new gutil.PluginError('gulp-marksite', 'Failure reading layout file'));
+					return;
+				}
 
-			callback(null, file);
+				var template = handlebars.compile(source);
+				var context = {
+					title: 'Gulp marksite here!',
+					body: data
+				};
+				var html = template(context);
+
+				file.contents = new Buffer(html);
+				file.path = gutil.replaceExtension(file.path, '.html');
+
+				callback(null, file);
+			});
 		});
 	});
 }
