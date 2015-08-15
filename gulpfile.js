@@ -16,13 +16,13 @@ var src = {
 	css: theme + '/bootstrap.css',
 	js: bootstrap + '/js/bootstrap.{js,min.js}',
 	icons: bootstrap + '/fonts/*.{eot,svg,ttf,woff,woff2}',
-	sass: './sass/*.{sass,scss}',
+	sass: './src/sass/*.{sass,scss}',
 };
 
 var dist = {
-	css: './css',
-	fonts: './fonts',
-	js: './js'
+	css: './dist/css',
+	fonts: './dist/fonts',
+	js: './dist/js'
 };
 
 /* Build sass stylesheets. */
@@ -68,17 +68,27 @@ gulp.task('icons', function () {
 		.pipe(debug());
 });
 
+/* Build HTML pages. */
+gulp.task('pages', function () {
+	// TODO: actually build HTML pages from HTML layout and MD content
+	gulp.src('./src/layout.html')
+		.pipe(rename('index.html'))
+		.pipe(gulp.dest('./dist/'))
+		.pipe(debug());
+});
+
 /* Build all assets. */
 gulp.task('assets', [
 	'css',
 	'js',
 	'icons',
-	'sass']);
+	'sass'
+]);
 
 /* Development server. */
 gulp.task('develop', function () {
 	var app = express();
-	app.use(express.static('./'));
+	app.use(express.static('./dist/'));
 
 	var server = app.listen(3000, function() {
 		var host = server.address().address;
@@ -90,6 +100,7 @@ gulp.task('develop', function () {
 /* Default task. */
 gulp.task('default', [
 	'assets',
+	'pages',
 	'develop'
 ], function () {
 	gulp.watch(src.sass, ['sass']);
