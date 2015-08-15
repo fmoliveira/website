@@ -11,8 +11,7 @@ if [ "$?" = "0" ]; then
 	if [ "$?" = "0" ]; then
 		git add $(git status --untracked-files=no | grep 'modified' | grep -E '.html' | cut -d ':' -f 2 | tr -d ' ')
 		git commit -m "Updating website."
-		$BUILDCOMMIT=$(git rev-parse HEAD)
-		echo "Done, commited as $BUILDCOMMIT."
+		echo "Done."
 	else
 		echo "No changes."
 	fi
