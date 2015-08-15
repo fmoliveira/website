@@ -71,7 +71,7 @@ gulp.task('icons', function () {
 /* Build HTML pages. */
 gulp.task('pages', function () {
 	// TODO: actually build HTML pages from HTML layout and MD content
-	gulp.src('./src/layout.html')
+	gulp.src('./src/templates/layout.html')
 		.pipe(rename('index.html'))
 		.pipe(gulp.dest('./dist/'))
 		.pipe(debug());
