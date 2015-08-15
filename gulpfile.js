@@ -72,6 +72,14 @@ gulp.task('icons', function () {
 		.pipe(debug());
 });
 
+/* Build all assets. */
+gulp.task('assets', [
+	'css',
+	'js',
+	'icons',
+	'sass'
+]);
+
 /* Build HTML pages. */
 gulp.task('pages', function () {
 	// TODO: actually build HTML pages from HTML layout and MD content
@@ -83,12 +91,10 @@ gulp.task('pages', function () {
 		.pipe(debug());
 });
 
-/* Build all assets. */
-gulp.task('assets', [
-	'css',
-	'js',
-	'icons',
-	'sass'
+/* Build all the website. */
+gulp.task('build', [
+	'assets',
+	'pages'
 ]);
 
 /* Development server. */
@@ -105,8 +111,7 @@ gulp.task('develop', function () {
 
 /* Default task. */
 gulp.task('default', [
-	'assets',
-	'pages',
+	'build',
 	'develop'
 ], function () {
 	gulp.watch(src.sass, ['sass']);
