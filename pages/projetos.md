@@ -2,4 +2,4 @@
 
 Página em construção!
 
-Confira meu perfil no GitHub: http://github.com/fmoliveira.
+Por enquanto você pode conferir alguns dos meus projetos em meu perfil no GitHub: http://github.com/fmoliveira.
