@@ -1,9 +1,21 @@
 #!/bin/sh
 
-git status --untracked-files=no | grep 'modified' | grep '.md' > /dev/null
+git diff-tree --no-commit-id --name-only -r HEAD~1 | grep '.md' > /dev/null
 
 if [ "$?" = "0" ]; then
-	gulp build
-	git add $(git status --untracked-files=no | grep 'modified' | grep -E '.md|.html' | cut -d ':' -f 2 | tr -d ' ')
-	git commit -m "Updating website."
+	echo "Rebulding website, please wait..."
+	git stash save > /dev/null
+	gulp build > /dev/null
+	git status --untracked-files=no | grep 'modified' | grep -E '.html' > /dev/null
+
+	if [ "$?" = "0" ]; then
+		git add $(git status --untracked-files=no | grep 'modified' | grep -E '.html' | cut -d ':' -f 2 | tr -d ' ')
+		git commit -m "Updating website."
+		$BUILDCOMMIT=$(git rev-parse HEAD)
+		echo "Done, commited as $BUILDCOMMIT."
+	else
+		echo "No changes."
+	fi
+
+	git stash pop > /dev/null
 fi
