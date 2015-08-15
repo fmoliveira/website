@@ -17,13 +17,16 @@ var src = {
 	css: theme + '/bootstrap.css',
 	js: bootstrap + '/js/bootstrap.{js,min.js}',
 	icons: bootstrap + '/fonts/*.{eot,svg,ttf,woff,woff2}',
-	sass: './src/sass/*.{sass,scss}',
+	layout: './src/templates/layout.html',
+	pages: './pages/',
+	sass: './src/sass/*.{sass,scss}'
 };
 
 var dist = {
-	css: './dist/css',
-	fonts: './dist/fonts',
-	js: './dist/js'
+	css: './css',
+	fonts: './fonts',
+	js: './js',
+	pages: '.',
 };
 
 /* Build sass stylesheets. */
@@ -72,11 +75,11 @@ gulp.task('icons', function () {
 /* Build HTML pages. */
 gulp.task('pages', function () {
 	// TODO: actually build HTML pages from HTML layout and MD content
-	gulp.src('./data/**/*.md')
+	gulp.src(src.pages + '**/*.md')
 		.pipe(marksite({
-			layout: './src/templates/layout.html'
+			layout: src.layout
 		}))
-		.pipe(gulp.dest('./dist/'))
+		.pipe(gulp.dest(dist.pages))
 		.pipe(debug());
 });
 
@@ -91,7 +94,7 @@ gulp.task('assets', [
 /* Development server. */
 gulp.task('develop', function () {
 	var app = express();
-	app.use(express.static('./dist/'));
+	app.use(express.static(dist.pages));
 
 	var server = app.listen(3000, function() {
 		var host = server.address().address;
