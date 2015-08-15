@@ -1,6 +1,6 @@
 #!/bin/sh
 
-git diff-tree --no-commit-id --name-only -r HEAD~1 | grep '.md' > /dev/null
+git diff-tree --no-commit-id --name-only -r HEAD~0 | grep '.md' > /dev/null
 
 if [ "$?" = "0" ]; then
 	echo "Rebulding website, please wait..."
