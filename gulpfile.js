@@ -4,7 +4,8 @@ var gulp = require('gulp'),
 	sourcemaps = require('gulp-sourcemaps'),
 	minify = require('gulp-minify-css'),
 	rename = require('gulp-rename'),
-	express = require('express');
+	express = require('express')
+	marksite = require('./gulp-marksite');
 
 /* Constants. */
 var components = './bower_components';
@@ -71,8 +72,10 @@ gulp.task('icons', function () {
 /* Build HTML pages. */
 gulp.task('pages', function () {
 	// TODO: actually build HTML pages from HTML layout and MD content
-	gulp.src('./src/templates/layout.html')
-		.pipe(rename('index.html'))
+	gulp.src('./data/**/*.md')
+		.pipe(marksite({
+			layout: './src/templates/layout.html'
+		}))
 		.pipe(gulp.dest('./dist/'))
 		.pipe(debug());
 });

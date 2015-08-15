@@ -32,7 +32,9 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.6",
     "handlebars": "^3.0.3",
-    "marked": "^0.3.5"
+    "marked": "^0.3.5",
+    "through2": "^2.0.0"
   }
 }
