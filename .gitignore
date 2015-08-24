@@ -37,3 +37,5 @@ bower_components
 .bower-tmp
 
 
+.deploy_git
+public
