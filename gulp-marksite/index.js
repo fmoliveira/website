@@ -32,8 +32,9 @@ module.exports = function (options) {
 				}
 
 				var template = handlebars.compile(source);
+				var title = /<h1.*>(.*)<\/h1>/gi.exec(data);
 				var context = {
-					title: 'Gulp marksite here!',
+					title: title[1],
 					body: data
 				};
 				var html = template(context);
