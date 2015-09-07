@@ -21,3 +21,8 @@ h1
 {
 	padding: 1em;
 }
+
+.stack > div > a  > img
+{
+	margin: 0 auto;
+}
