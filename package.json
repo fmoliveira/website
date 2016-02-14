@@ -4,6 +4,7 @@
   "description": "Filipe Oliveira is a Full Stack Engineer.",
   "main": "index.js",
   "scripts": {
+    "build:css": "stylus --include-css src/styles/fmoliveira.styl -o src/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -36,5 +37,11 @@
   "bugs": {
     "url": "https://github.com/fmoliveira/fmoliveira.github.io/issues"
   },
-  "homepage": "https://github.com/fmoliveira/fmoliveira.github.io#readme"
+  "homepage": "https://github.com/fmoliveira/fmoliveira.github.io#readme",
+  "devDependencies": {
+    "stylus": "^0.53.0"
+  },
+  "dependencies": {
+    "normalize.css": "^3.0.3"
+  }
 }
