@@ -1,0 +1,40 @@
+{
+  "name": "fmoliveira.github.io",
+  "version": "4.0.0",
+  "description": "Filipe Oliveira is a Full Stack Engineer.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmoliveira/fmoliveira.github.io.git"
+  },
+  "keywords": [
+    "filipe",
+    "oliveira",
+    "full",
+    "stack",
+    "engineer",
+    "software",
+    "frontend",
+    "backend",
+    "javascript",
+    "es6",
+    "ecmascript",
+    "6",
+    "c#",
+    ".net",
+    "docker",
+    "windows",
+    "linux",
+    "os",
+    "x"
+  ],
+  "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmoliveira/fmoliveira.github.io/issues"
+  },
+  "homepage": "https://github.com/fmoliveira/fmoliveira.github.io#readme"
+}
