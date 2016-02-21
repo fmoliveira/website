@@ -4,36 +4,28 @@
 @import '_menu'
 @import '_blockquote'
 
-sidebar-left-width = 12em
-sidebar-right-width = 15em
+sidebar-width = 15em
 
 body
   display flex
   min-height 100vh
   flex-direction column
 
-header, .wrapper
+.wrapper
   display flex
 
-.wrapper
-  flex 1
-
-.container
-  flex 1
-  padding 0 10px
-
-.sidebar-left
-  flex 0 0 sidebar-left-width
+.sidebar
+  flex 0 0 sidebar-width
   order -1
 
-.sidebar-right
-  flex 0 0 sidebar-right-width
-  order 10
-
-.center
-  display flex
-  align-items center
-  justify-content center
+.profile
+  text-align center
+  padding 0 3px
+  
+  img
+    width 100%
 
 footer
   text-align center
+  border-top 1px solid color-default
+  margin 2em 1em
