@@ -4,7 +4,7 @@
   "description": "Filipe Oliveira is a Full Stack Engineer.",
   "main": "index.js",
   "scripts": {
-    "build": "node node_modules/stylus/bin/stylus src/styles/ -o src/css",
+    "build": "node node_modules/stylus/bin/stylus src/styles/main.styl -o src/styles",
     "start": "node .",
     "test": "node node_modules/.bin/eslint ."
   },
