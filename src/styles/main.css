@@ -186,11 +186,15 @@ blockquote {
 }
 header {
   width: 100%;
-  height: 400px;
+  height: 100vh;
   background-color: #111;
-  color: #39cccc;
+  color: #0074d9;
   text-align: center;
-  padding-top: 2em;
+  padding-top: 10vh;
+}
+header img {
+  max-width: 300px;
+  border-radius: 100%;
 }
 h1 {
   font-size: 4em;
