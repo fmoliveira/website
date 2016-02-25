@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "node node_modules/stylus/bin/stylus src/styles/main.styl -o src/styles",
+    "deploy": "sh deploy.sh",
     "start": "node .",
     "test": "node node_modules/.bin/eslint ."
   },
