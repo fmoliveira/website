@@ -216,11 +216,26 @@ main {
   fill: currentColor;
   margin-right: 5px;
 }
+.icon-2x {
+  width: 2em;
+  height: 2em;
+}
+.icon-3x {
+  width: 3em;
+  height: 3em;
+}
+.icon-4x {
+  width: 4em;
+  height: 4em;
+}
+.social a {
+  color: #0074d9;
+  text-decoration: none;
+  margin-right: 1em;
+}
 nav .icon {
   margin-top: 1em;
   color: #ffdc00;
-  width: 4em;
-  height: 4em;
 }
 section {
   display: flex;
