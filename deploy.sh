@@ -4,9 +4,9 @@
 DEPLOY_FOLDER=.deploy
 rm -rf $DEPLOY_FOLDER
 
-# Clone repository and erase latest build
-git clone -b master --single-branch git@github.com:fmoliveira/fmoliveira.github.io.git $DEPLOY_FOLDER
-git -C $DEPLOY_FOLDER rm -rf .
+# Init repository
+mkdir .deploy
+git -C $DEPLOY_FOLDER init
 
 # Execute build
 npm run build
@@ -20,10 +20,13 @@ rm -rf $DEPLOY_FOLDER/styles/*.styl
 # Minify production files
 node node_modules/.bin/cleancss src/styles/main.css -o .deploy/styles/main.css
 
-# Commit and push
+# Commit
 git -C $DEPLOY_FOLDER add --all .
 git -C $DEPLOY_FOLDER commit -m "Website deployment."
-git -C $DEPLOY_FOLDER push
+
+# Force push
+git -C $DEPLOY_FOLDER remote add origin git@github.com:fmoliveira/fmoliveira.github.io.git
+git -C $DEPLOY_FOLDER push origin master -f
 
 # Tear down clean up
 rm -rf $DEPLOY_FOLDER
