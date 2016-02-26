@@ -17,6 +17,9 @@ cp -r src/* $DEPLOY_FOLDER/.
 # Remove development files
 rm -rf $DEPLOY_FOLDER/styles/*.styl
 
+# Minify production files
+node node_modules/.bin/cleancss src/styles/main.css -o .deploy/styles/main.css
+
 # Commit and push
 git -C $DEPLOY_FOLDER add --all .
 git -C $DEPLOY_FOLDER commit -m "Website deployment."
