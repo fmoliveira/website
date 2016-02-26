@@ -232,19 +232,6 @@ nav .icon {
   margin-top: 1em;
   color: #ffdc00;
 }
-section {
-  display: flex;
-  margin-bottom: 1em;
-}
-section article {
-  flex-grow: 1;
-  order: 1;
-  padding: 0 1em;
-}
-section aside {
-  flex-basis: 400px;
-  order: 10;
-}
 .media-list a {
   padding: 0 0.5em;
 }
