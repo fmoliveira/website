@@ -9,9 +9,8 @@
 title: Filipe Oliveira
 email: contato@fmoliveira.com.br
 description: > # this means to ignore newlines until "baseurl:"
-  Filipe Oliveira is a Fullstack JavaScript Engineer from Campinas, Brazil.
-  He likes Linux, Zsh, ES6, Node.js, Angular, MongoDB, Docker,
-  and lots of other amazing stuff.
+  Fullstack JavaScript Engineer. Gosto de trabalhar com Linux, Zsh, ES6, Node.js,
+  Angular, MongoDB, Docker, e muitas outras tecnologias incríveis.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fmoliveira.com.br" # the base hostname & protocol for your site
 twitter_username: tfmoliveira
