@@ -24,7 +24,7 @@ Todas as equipes participantes estão de parabéns por seu potencial, conhecimen
 
 Parabéns ao pessoal da [Prefeitura de Campinas][prefeitura-campinas] pela iniciativa! Porém, há bastante pontos a melhorar. Os dados da API poderiam estar melhor indexados para que as consultas por data fossem realizadas com melhor desempenho. Também faltou vários relacionamentos bem importantes, que, apesar de termos nos virado sem eles, não deixam de ser essenciais para uma API de qualidade. E por último, mas não menos importante, ficamos chateados porque nos foi anunciado a existência de 2 menções honrosas, mas os nomes dos projetos não foram pronunciados.
 
-Agradecimentos mais do que especiais ao pessoal da [IMA][ima] e da [Sensedia][sensedia], pois o evento foi realmente muito bem elaborado e realizado! Espero poder participar de futuras edições!
+Agradecimentos mais do que especiais ao pessoal da [IMA][ima] e da [Sensedia][sensedia], pois o evento foi realmente muito bem elaborado e realizado! Toda a staff e os senseis estão de parabéns por sua hospitalidade e disponibilidade! Espero poder participar de futuras edições!
 
 [hackathon-campinas]: http://hackathon.ima.sp.gov.br/api-portal/
 [ima]: https://ima.sp.gov.br/
