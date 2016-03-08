@@ -6,7 +6,7 @@ categories: geral
 ---
 Neste fim de semana eu participei do [Hackathon Campinas][hackathon-campinas], evento realizado pela [IMA][ima], e gostaria de compartilhar minhas impressões e opiniões sobre o mesmo.
 
-Toda a comunicação por email foi muito atenciosa, e o mesmo se aplicou à recepção no evento. Fomos recebidos com um generoso kit de snacks e um café da manhã bem servido. As 9:00hs o pessoal da [IMA][ima] abriu o evento explicando o objetivo social do mesmo, e por volta das 9:30hs começamos a nos acomodar no escritório deles.
+Toda a comunicação por email foi muito atenciosa, e o mesmo se aplicou à recepção no evento. Fomos recebidos no sábado com um generoso kit de snacks e um café da manhã bem servido. As 9:00hs o pessoal da [IMA][ima] abriu o evento explicando o objetivo social do mesmo, e por volta das 9:30hs começamos a nos acomodar no escritório deles.
 
 Começamos a nos organizar logo que chegamos no escritório, discutindo sobre como utilizaríamos a API da [Prefeitura de Campinas][prefeitura-campinas] em nosso projeto.
 
@@ -18,7 +18,7 @@ Tivemos acesso a mentores técnicos altamente capacitados da [Sensedia][sensedia
 
 Fizemos 3 grandes alterações na ideia do nosso projeto durante o evento todo, e isto foi com certeza o que mais nos atrapalhou. Falhamos em ter pedido ajuda mais cedo aos mentores para avaliação de nossa ideia, e fomos realizar as alterações um pouco tarde. A nossa proposta final foi apresentar de forma gráfica a quantidade de atendimentos por região e especialidade médica, a fim de facilitar ao departamento de gestão responsável a identificação de locais onde há carência ou excesso de um determinado tipo de profissional, sugerindo o remanejamento ou novas contratações. Resolvemos extrair os dados da API de saúde da [prefeitura][prefeitura-campinas] para nosso banco de dados para realizar a composição das informações que precisamos, e a API tinha dados suficientes para realizarmos esta tarefa.
 
-Infelizmente, não conseguimos cumprir o que desejamos. Se tivéssemos o que foi a nossa ideia final nas primeiras horas do evento, com certeza o tempo seria mais do que suficiente para entregar um projeto com qualidade muito superior, mesmo com a equipe pela metade. Não foi desta vez que o nosso projeto foi classificado como campeão, mas, nós adquirimos uma experiência em tanto, o que foi extremamente válido.
+A maratona foi encerrada as 8:50hs do domingo, e as apresentações se iniciaram as 9:00hs. Infelizmente, não conseguimos cumprir o que desejávamos. Se tivéssemos o que foi a nossa ideia final nas primeiras horas do evento, com certeza o tempo seria mais do que suficiente para entregar um projeto com qualidade muito superior, mesmo com a equipe pela metade. Não foi desta vez que o nosso projeto foi classificado como campeão, mas, nós adquirimos uma experiência em tanto, o que foi extremamente válido.
 
 Todas as equipes participantes estão de parabéns por seu potencial, conhecimento técnico e trabalho em equipe!
 
