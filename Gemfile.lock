@@ -13,6 +13,7 @@ GEM
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
+    rouge (1.10.1)
 
 PLATFORMS
   ruby
@@ -22,6 +23,7 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-watch
   kramdown
+  rouge
 
 BUNDLED WITH
    1.11.2
