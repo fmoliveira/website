@@ -7,7 +7,7 @@ layout: default
     <h1 class="post-title" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
       <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {% assign date_format = site.minima.date_format | default: "%-d/%m/%Y" %}
         {{ page.date | date: date_format }}
       </time>
       {% if page.author %}
@@ -20,6 +20,6 @@ layout: default
   </div>
 
   {% if site.disqus_shortname %}
-    {% include disqus_comments.html %}
+  {% include disqus_comments.html %}
   {% endif %}
 </article>

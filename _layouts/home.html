@@ -5,13 +5,13 @@ layout: default
 <div class="home">
 
   <h1 class="page-heading">Posts</h1>
-  
+
   {{ content }}
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
 
         <h2>
@@ -21,6 +21,6 @@ layout: default
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+  <p class="rss-subscribe">Assine <a href="{{ "/feed.xml" | relative_url }}">meu feed RSS</a> para ficar por dentro das novidades!</p>
 
 </div>
