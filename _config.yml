@@ -8,6 +8,7 @@ url: "https://fmoliveira.com.br"
 twitter_username: tfmoliveira
 github_username:  fmoliveira
 google_analytics: UA-42379864-1
+disqus_shortname: fmoliveira
 
 # Build settings
 markdown: kramdown
