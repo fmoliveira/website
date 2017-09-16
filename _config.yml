@@ -13,5 +13,5 @@ disqus_shortname: fmoliveira
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+plugins:
   - jekyll-feed
