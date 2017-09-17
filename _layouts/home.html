@@ -1,26 +1,30 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-<div class="home">
+  {% include head.html %}
 
-  <h1 class="page-heading">Posts</h1>
+  <body>
 
-  {{ content }}
+    <main class="welcome-page">
+      <div class="wrapper">
+        <header>
+          <img src="/assets/tfmoliveira.jpg" alt="Filipe Oliveira">
+          <h1>Filipe Oliveira</h1>
+          <aside>Software Engineer &amp; Entrepreneur</aside>
+        </header>
+        <content>
+          <p>
+            {{ content }}
+          </p>
+        </content>
+        <footer>
+          <a class="social-link" href="https://www.instagram.com/tfmoliveira/" target="_blank" rel="noopener">{% include home-icon-instagram.svg %}</a>
+          <a class="social-link" href="https://github.com/fmoliveira" target="_blank" rel="noopener">{% include home-icon-github.svg %}</a>
+          <a class="social-link" href="https://twitter.com/tfmoliveira" target="_blank" rel="noopener">{% include home-icon-twitter.svg %}</a>
+        </footer>
+      </div>
+    </main>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        {% assign date_format = site.minima.date_format | default: "%d/%m/%Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+  </body>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">Assine <a href="{{ "/feed.xml" | relative_url }}">meu feed RSS</a> para ficar por dentro das novidades!</p>
-
-</div>
+</html>

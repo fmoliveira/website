@@ -1,6 +1,7 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+excerpt: Filipe Oliveira is a Software Engineer & Entrepreneur with a mission to change people lives through education with computers.
 ---
+My mission is to change people lives through education with computers.
+
+I'm <strong>NOT</strong> looking for a job, I'm looking to make a difference wherever I go.
