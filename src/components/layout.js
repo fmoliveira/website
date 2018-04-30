@@ -6,6 +6,7 @@ export const Layout = ({ children }) => (
   <Wrapper>
     <Header>
       <Title>Filipe Oliveira</Title>
+      <SubTitle>Cloud Software Engineer</SubTitle>
       <Menu>
         <Link to='/'>Home</Link>
         <Link to='/about'>About</Link>
@@ -34,7 +35,17 @@ const Body = styled.div`
 `
 
 const Title = styled.h1`
-  margin: 2em;
+  margin-top: 2em;
+  margin-bottom: 0.25em;
+  font-size: 2.5em;
+  font-weight: bold;
+`
+
+const SubTitle = styled.h2`
+  margin-top: 0;
+  margin-bottom: 5em;
+  font-size: 1em;
+  font-weight: normal;
 `
 
 const Menu = styled.div`
