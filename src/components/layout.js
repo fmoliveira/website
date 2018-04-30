@@ -8,7 +8,7 @@ export const Layout = ({ children }) => (
       <Title>Filipe Oliveira</Title>
       <SubTitle>Cloud Software Engineer</SubTitle>
       <Menu>
-        <Link to='/'>Home</Link>
+        {/*<Link to='/'>Home</Link>*/}
         <Link to='/about'>About</Link>
         <Link to='/portfolio'>Portfolio</Link>
         <Link to='/hire-me'>Hire Me</Link>
@@ -54,7 +54,7 @@ const Menu = styled.div`
 `
 
 const Link = styled(BaseLink)`
-  margin: 0 0.5em;
+  margin: 0 1em;
   color: #ffffff;
   text-decoration: none;
 
