@@ -37,7 +37,7 @@ const Body = styled.div`
 
 const Title = styled.h1`
   margin-top: 2em;
-  margin-bottom: 0.25em;
+  margin-bottom: 0.5em;
   font-size: 2.5em;
   font-weight: bold;
 `
