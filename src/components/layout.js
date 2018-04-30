@@ -59,6 +59,6 @@ const Link = styled(BaseLink)`
   text-decoration: none;
 
   &:hover {
-    color: #cfcfcf;
+    color: #40b5db;
   }
 `
