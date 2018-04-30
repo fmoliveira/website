@@ -1,7 +1,9 @@
 import React from 'react'
 
+import { Container } from '../components/styles'
+
 export const HireMe = () => (
-  <div>
-    Hire Me
-  </div>
+  <Container>
+    <h3>Hire Me</h3>
+  </Container>
 )
