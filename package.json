@@ -4,6 +4,7 @@
   "private": true,
   "description": "My portfolio and stuff.",
   "main": "src/main.js",
+  "homepage": "https://fmoliveira.com.br",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
