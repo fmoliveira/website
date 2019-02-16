@@ -5,6 +5,12 @@ body {
   font-size: 62.5%;
 }
 
+.container {
+  margin: 0 auto;
+  align-self: center;
+  width: 1280px;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
