@@ -24,3 +24,13 @@ body {
   border-radius: 100%;
   border: 3px solid #ffffff;
 }
+
+.vcard .name {
+  margin: 1rem;
+  font-size: 5em;
+}
+
+.vcard .role {
+  margin: 0;
+  font-size: 3em;
+}
