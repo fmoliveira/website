@@ -107,3 +107,58 @@ body {
     transform: translateY(1.5em);
   }
 }
+
+.row {
+  margin: 2em;
+  display: flex;
+}
+
+.row .column {
+  margin: 2em;
+  flex: 1;
+}
+
+.column .section-title {
+  margin: 0;
+  font-size: 3.2em;
+  color: #012f6e;
+}
+
+.column .subtitle {
+  margin: 1rem 0;
+  font-size: 1.6em;
+  color: #ae43e5;
+}
+
+.column .feature-title {
+  font-size: 1.9em;
+  color: #295890;
+}
+
+.column p,
+.column ul {
+  font-size: 1.6em;
+  line-height: 1.7em;
+  color: #555555;
+}
+
+.column ul {
+  padding: 0;
+  list-style: none;
+}
+
+.column ul.horizontal-list {
+  line-height: 1em;
+}
+
+.column ul.horizontal-list li {
+  display: inline-block;
+}
+
+.column ul.horizontal-list li:after {
+  content: " \00B7 ";
+}
+
+.column ul.horizontal-list li:last-of-type:after {
+  content: "";
+}
