@@ -7,8 +7,7 @@ body {
 
 .hero {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
   background-color: #030917;
   background-image: url("../images/galaxy.jpg");
   background-repeat: no-repeat;
@@ -16,8 +15,38 @@ body {
   height: 100vh;
 }
 
+.topbar {
+  margin: 4em;
+  display: flex;
+  flex-direction: row;
+}
+
+.topbar .brand {
+  flex: 1;
+  font-size: 1.6em;
+}
+
+.topbar .brand a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.topbar .navbar {
+  font-size: 1.6em;
+}
+
+.navbar a {
+  margin: 0 2em;
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .vcard {
-  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .vcard .avatar {
