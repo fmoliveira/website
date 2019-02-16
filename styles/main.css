@@ -65,3 +65,45 @@ body {
   margin: 0;
   font-size: 3em;
 }
+
+.scroll-hint {
+  margin: 4em;
+  cursor: pointer;
+}
+
+.scroll-hint svg {
+  max-height: 50px;
+  fill: #ffffff;
+  opacity: 0.25;
+  animation-name: scroll-hint-idle;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+.scroll-hint:hover svg {
+  animation-name: scroll-hint-hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes scroll-hint-idle {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes scroll-hint-hover {
+  40% {
+    opacity: 0.5;
+    transform: translateY(1em);
+  }
+  50% {
+    opacity: 0.65;
+    transform: translateY(0.5em);
+  }
+  60% {
+    opacity: 0.75;
+    transform: translateY(1.5em);
+  }
+}
