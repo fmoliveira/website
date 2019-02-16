@@ -11,6 +11,7 @@ body {
   background-color: #030917;
   background-image: url("../images/galaxy.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
   height: 100vh;
 }
@@ -161,4 +162,8 @@ body {
 
 .column ul.horizontal-list li:last-of-type:after {
   content: "";
+}
+
+.language {
+  text-transform: capitalize;
 }
