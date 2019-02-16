@@ -11,13 +11,90 @@ body {
   width: 1280px;
 }
 
-.hero {
-  display: flex;
-  flex-direction: column;
+.void {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-color: #030917;
+}
+
+.galaxy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
   background-image: url("../images/galaxy.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  animation-name: lively-galaxy;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes lively-galaxy {
+  0% {
+    background-position: 0 0;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  10% {
+    background-position: 3px 0;
+    transform: rotate(0.1deg);
+    opacity: 0.9;
+  }
+  20% {
+    background-position: 0 3px;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  30% {
+    background-position: -3px 0;
+    transform: rotate(0deg);
+    opacity: 0.85;
+  }
+  40% {
+    background-position: 0 -3px;
+    transform: rotate(-0.1deg);
+    opacity: 0.8;
+  }
+  50% {
+    background-position: 0 3px;
+    transform: rotate(0deg);
+    opacity: 0.9;
+  }
+  60% {
+    background-position: -3px 0;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+  70% {
+    background-position: 0 0;
+    transform: rotate(0.1deg);
+    opacity: 0.85;
+  }
+  80% {
+    background-position: 3px 0;
+    transform: rotate(0deg);
+    opacity: 0.8;
+  }
+  90% {
+    background-position: 0 3px;
+    transform: rotate(0deg);
+    opacity: 0.9;
+  }
+  100% {
+    background-position: 0 0;
+    transform: rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
   color: #ffffff;
   height: 100vh;
 }
