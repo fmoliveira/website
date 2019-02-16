@@ -6,3 +6,14 @@
   color: #ffffff;
   height: 100vh;
 }
+
+.vcard {
+  text-align: center;
+}
+
+.vcard .avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  border: 3px solid #ffffff;
+}
