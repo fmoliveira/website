@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 10
+branches:
+  only:
+    - source
+script:
+  - yarn build
+  - npx gh-pages -d public -b master
