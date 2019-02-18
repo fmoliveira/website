@@ -55,6 +55,7 @@ module.exports = {
       }
     },
     `gatsby-plugin-feed`,
+    `gatsby-plugin-twitter`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
