@@ -1,11 +1,33 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "fmoliveira",
+  "description": "Personal website of Filipe Oliveira, Software Engineer from Brazil.",
+  "version": "19.2.17",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
+  "homepage": "https://fmoliveira.com.br/",
+  "keywords": [
+    "personal",
+    "blog",
+    "functional-programming",
+    "javascript",
+    "react",
+    "dotnet"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+  },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/fmoliveira/fmoliveira.github.io/issues"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "dependencies": {
     "gatsby": "^2.1.4",
@@ -34,22 +56,5 @@
     "typeface-montserrat": "0.0.54",
     "typography": "^0.16.18",
     "typography-theme-wordpress-2016": "^0.16.18"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "serve": "gatsby serve",
-    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   }
 }
