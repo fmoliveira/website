@@ -6,6 +6,7 @@ branches:
     - source
 script:
   - yarn build
+  - cp CNAME public/
   - cd public
   - git init
   - git add .
