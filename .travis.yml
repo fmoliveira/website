@@ -6,4 +6,8 @@ branches:
     - source
 script:
   - yarn build
-  - npx gh-pages -d public -b master
+  - cd public
+  - git init
+  - git add .
+  - git commit -m "Updated website."
+  - git push https://fmoliveira:$GITHUB_TOKEN@github.com/fmoliveira/fmoliveira.github.io.git master --force
