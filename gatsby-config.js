@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `fmoliveira.com.br`,
+    title: `fmoliveira.dev`,
     author: `Filipe Oliveira`,
     description: `Personal website of Filipe Oliveira, Software Engineer from Brazil.`,
-    siteUrl: `https://fmoliveira.com.br/`,
+    siteUrl: `https://fmoliveira.dev/`,
     social: {
       github: `fmoliveira`,
       twitter: `tfmoliveira`

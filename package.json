@@ -3,8 +3,8 @@
   "description": "Personal website of Filipe Oliveira, Software Engineer from Brazil.",
   "version": "19.2.17",
   "private": true,
-  "author": "Filipe Oliveira <contato@fmoliveira.com.br>",
-  "homepage": "https://fmoliveira.com.br/",
+  "author": "Filipe Oliveira <hi@fmoliveira.dev>",
+  "homepage": "https://fmoliveira.dev/",
   "keywords": [
     "personal",
     "blog",
