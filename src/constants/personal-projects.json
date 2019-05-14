@@ -1,0 +1,39 @@
+[
+  {
+    "name": "Agenda Tech RMC",
+    "description": "Project ideated with many meetup organisers of my city, kickstarted by me, and with contributions from several other event organisers. It displays aggregated events from Meetup.com website of certain organisations, all running events in my home city. Published on Surge and Heroku with CI from Travis.",
+    "year": "2017",
+    "links": [
+      {
+        "href": "https://github.com/comunidadescampinas/agenda-front",
+        "text": "frontend source"
+      },
+      {
+        "href": "https://github.com/comunidadescampinas/agenda-api",
+        "text": "api source"
+      },
+      {
+        "href": "https://agendatechrmc.surge.sh/",
+        "text": "live app"
+      }
+    ]
+  },
+  {
+    "name": "Tantalus",
+    "description": "Development of an alternative Evernote client, that will mainly target Linux users. At the moment I started this project, I was an active Linux user and I always enjoyed using Evernote over all alternatives. The project is currently frozen and only frontend code is done, but I'll resume it on mid-2019.",
+    "year": "2016",
+    "image": "https://github.com/fmoliveira/tantalus/raw/master/media/screenshot.gif",
+    "links": [
+      {
+        "href": "https://github.com/fmoliveira/tantalus",
+        "text": "source"
+      }
+    ]
+  },
+  {
+    "name": "dotfiles",
+    "description": "Shell scripts to help me setup a fresh Debian based Linux distribution from scratch in minutes with all the apps I use everyday, from coding to listening to music. I used it a lot around 2016-2017 when I worked mainly on Linux and liked experimenting different Debian based distributions.",
+    "year": "2016",
+    "image": "https://github.com/fmoliveira/dotfiles/raw/master/screenshot.png"
+  }
+]

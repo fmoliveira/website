@@ -1,0 +1,41 @@
+[
+  {
+    "name": "BCV Social",
+    "description": "Frontend Engineering role in a web application that helps social media and hospitality experts to manage social media of thousands of five star hotels worldwide.",
+    "year": "2018-current",
+    "links": [
+      {
+        "href": "http://www.bcvsocial.com/",
+        "text": "company website"
+      }
+    ]
+  },
+  {
+    "name": "HBSIS Primária",
+    "description": "Full-time work on major logistics software that tracked over 500,000 GPS positions every hour of over 4,000 trucks all around Brazil. As a Senior Software Architect specialised in Frontend, my role was to work together the the Backend Software Architect and other Backend Developers to make sure our solution was headed to the best place we had the resources to. I have implemented the frontend alone, including the app design from scratch (based on inputs from the UX Designer) and without using CSS frameworks, and I was also responsible for the REST and WebSockets APIs, as well as the non relational database, and helped with relational databases and backend aspects too.",
+    "year": "2016-2018",
+    "image": "https://user-images.githubusercontent.com/3985462/57663281-c1189200-75c9-11e9-82c8-bcb930bda0ed.png",
+    "links": [
+      {
+        "href": "https://hbsis.com.br/",
+        "text": "company website"
+      }
+    ]
+  },
+  {
+    "name": "NavalhApp",
+    "description": "Side project MVP built with work colleagues to help barbers manage their service information. We replaced handwritten notebooks in 8 pilot clients with this app. The app started as a very ugly Angular.js + jQuery proof of concept, then evolved to a React + Material Design web app, and lastly, to a mobile React Native + GraphQL app. I did UI design and completely implemented the React and React Native versions from scratch. The team unfortunatelly disbanded and the project was discontinued, but it's still running flawlessly in 3 clients.",
+    "year": "2017-2018",
+    "image": "https://user-images.githubusercontent.com/3985462/57662874-e4dad880-75c7-11e9-87ca-b21f7d7447d3.png",
+    "links": [
+      {
+        "href": "https://github.com/fmoliveira/navalha-rn",
+        "text": "react native source"
+      },
+      {
+        "href": "https://github.com/fmoliveira/navalha-gql",
+        "text": "graphql source"
+      }
+    ]
+  }
+]
