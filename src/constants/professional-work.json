@@ -12,7 +12,7 @@
   },
   {
     "name": "HBSIS Primária",
-    "description": "Full-time work on major logistics software that tracked over 500,000 GPS positions every hour of over 4,000 trucks all around Brazil. As a Senior Software Architect specialised in Frontend, my role was to work together the the Backend Software Architect and other Backend Developers to make sure our solution was headed to the best place we had the resources to. I have implemented the frontend alone, including the app design from scratch (based on inputs from the UX Designer) and without using CSS frameworks, and I was also responsible for the REST and WebSockets APIs, as well as the non relational database, and helped with relational databases and backend aspects too.",
+    "description": "Full-time work on major logistics software that tracked over 500,000 GPS positions every hour of over 4,000 trucks all around Brazil. As a Senior Software Architect specialised in Frontend, my role was to work together with the Backend Software Architect and other Backend Developers to make sure our solution was headed to the best place we had the resources to. I have implemented the frontend alone, including the app design from scratch (based on inputs from the UX Designer) and without using CSS frameworks, and I was also responsible for the REST and WebSockets APIs, as well as the non relational database, and helped with relational databases and backend aspects too.",
     "year": "2016-2018",
     "image": "https://user-images.githubusercontent.com/3985462/57663281-c1189200-75c9-11e9-82c8-bcb930bda0ed.png",
     "links": [
