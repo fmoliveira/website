@@ -6,7 +6,7 @@ import Footer from "./footer";
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props;
+    const { title, children } = this.props;
 
     return (
       <div
