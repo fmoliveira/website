@@ -7,6 +7,10 @@ const links = [
   {
     pathname: "/",
     text: "Blog"
+  },
+  {
+    pathname: "/uses/",
+    text: "My setup"
   }
 ];
 
