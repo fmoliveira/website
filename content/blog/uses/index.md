@@ -51,7 +51,7 @@ My current setup is:
 
 # Peripherals
 
-- Monitor: LG 23MP55
+- Monitor: LG Ultrawide 29WK500
 - Keyboard: Razer Blackwidow Lite (mechanical and tenkeyless)
 - Mouse: Logitech M275
 - Headphones: JBL Everest V310BT Space Grey
