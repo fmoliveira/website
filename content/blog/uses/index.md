@@ -53,7 +53,7 @@ My current setup is:
 
 - Monitor: LG Ultrawide 29WK500
 - Keyboard: Razer Blackwidow Lite (mechanical and tenkeyless)
-- Mouse: Logitech M275
+- Mouse: Logitech MX Master 2S
 - Headphones: JBL Everest V310BT Space Grey
 - Microphone: Blue Snowball iCE
 - Bluetooth: Orico USB Adapter BTA-403-BK
