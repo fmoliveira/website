@@ -16,7 +16,7 @@ My current setup is:
   - Main browsers: Chrome, Firefox Developer Edition
   - Cloud storage services: Dropbox, Google Drive, iCloud, Mega
   - Note taking: Bear
-  - Productivity: Alfred, ShareMouse
+  - Productivity: Alfred
   - Screenshots: Skitch, Gifox, Snappy
   - Password manager: 1Password
   - Music: Spotify, Mac Media Key Forwarder
