@@ -16,6 +16,8 @@ import theme from "../config/theme"
 import Header from "./Header"
 import Box from "./Box"
 
+const year = new Date().getFullYear()
+
 const GlobalStyle = createGlobalStyle`
   html {
     font-size: 62.5%;
@@ -62,7 +64,9 @@ const Layout = ({ children }) => {
       <Box px={6} py={4}>
         {children}
       </Box>
-      <Box p={6}>&copy; fmoliveira.dev</Box>
+      <Box p={6}>
+        fmoliveira.dev <sup>&copy;</sup> {year}
+      </Box>
     </ThemeProvider>
   )
 }
