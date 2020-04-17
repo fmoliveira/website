@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `fmoliveira.dev`,
+    description: `I'm a Freelance Software Engineer who loves writing clean and well-tested code. My favourite tech stack at the moment is React, TypeScript, Jest and Testing Library. Always hungry for learning and happy to help!`,
+    author: `@fmoliveira`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -19,11 +19,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `fmoliveira.dev`,
+        short_name: `fmoliveira`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#20222e`,
+        theme_color: `#20222e`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
