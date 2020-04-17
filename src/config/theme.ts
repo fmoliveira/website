@@ -17,8 +17,8 @@ export default {
     heading: "Kameron",
     body: "Nunito Sans",
   },
-  space: [0, 2, 4, 8, 16, 32, 64, 128, 256, 512],
-  sizes: [16, 32, 64, 128, 256],
-  fontSizes: [10, 14, 16, 20, 24, 36, 48, 80, 96],
+  space: ["0.0rem", "0.2rem", "0.4rem", "0.8rem", "1.6rem", "3.2rem", "6.4rem"],
+  sizes: ["1.6rem", "3.2rem", "6.4rem"],
+  fontSizes: ["1.0rem", "1.4rem", "1.6rem", "2.0rem", "2.4rem", "3.6rem"],
   fontWeights: [100, 200, 300, 400, 500, 600, 700, 800, 900],
 }
