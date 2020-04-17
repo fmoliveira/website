@@ -18,7 +18,13 @@ const StyledLink = styled.a`
 `
 
 const SocialButton = ({ network, url }) => (
-  <StyledLink p={3} network={network} href={url} target="_blank">
+  <StyledLink
+    p={3}
+    network={network}
+    href={url}
+    target="_blank"
+    rel="noopener noreferrer"
+  >
     {socialNetworks[network]?.name}
   </StyledLink>
 )
