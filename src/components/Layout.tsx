@@ -64,9 +64,6 @@ const Layout = ({ children }) => {
       <Box px={6} py={4}>
         {children}
       </Box>
-      <Box p={6}>
-        fmoliveira.dev <sup>&copy;</sup> {year}
-      </Box>
     </ThemeProvider>
   )
 }
