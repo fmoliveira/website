@@ -28,6 +28,7 @@ const GlobalStyle = createGlobalStyle`
     color: ${props => props.theme.colors.bodyText};
     font-family: ${props => props.theme.fonts.body};
     font-size: 1.6rem;
+    line-height: 2.5rem;
   }
 
   img:not([src*="*.svg"]) {
@@ -61,9 +62,7 @@ const Layout = ({ children }) => {
         />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Box px={6} py={4}>
-        {children}
-      </Box>
+      <Box p={[4, 6]}>{children}</Box>
     </ThemeProvider>
   )
 }

@@ -6,7 +6,7 @@ import Link from "./Link"
 import Title from "./Title"
 
 const Header = ({ siteTitle }) => (
-  <Box px={6} py={5} bg="headerBackground">
+  <Box px={[4, 6]} py={[4, 5]} bg="headerBackground">
     <Title as="h1">
       <Link to="/">{siteTitle}</Link>
     </Title>

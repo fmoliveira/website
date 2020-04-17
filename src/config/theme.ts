@@ -9,12 +9,7 @@ export default {
     linkText: "#A8BBDD",
     linkHoverText: "#84ABF2",
   },
-  breakpoints: {
-    sm: "40em",
-    md: "52em",
-    lg: "64em",
-    xl: "80em",
-  },
+  breakpoints: ["40em", "52em", "64em", "80em"],
   fonts: {
     heading: "Kameron",
     body: "Nunito Sans",
