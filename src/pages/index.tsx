@@ -6,6 +6,7 @@ import Inline from "../components/Inline"
 import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import SocialLink from "../components/SocialLink"
+import Stack from "../components/Stack"
 import Text from "../components/Text"
 import Title from "../components/Title"
 
@@ -18,7 +19,7 @@ const IndexPage = () => (
         <Box minWidth={150}>
           <Avatar />
         </Box>
-        <Box>
+        <Stack space={4}>
           <Text>
             I'm a Freelance Software Engineer from Brazil. I enjoy coding with
             TypeScript, React, Node.js, Jest and Testing Library. Here I write
@@ -32,7 +33,7 @@ const IndexPage = () => (
               url="https://twitter.com/tfmoliveira"
             />
           </Inline>
-        </Box>
+        </Stack>
       </Inline>
     </Box>
   </Layout>
