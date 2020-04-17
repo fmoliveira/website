@@ -8,12 +8,30 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import { ThemeProvider } from "styled-components"
+import { Helmet } from "react-helmet"
+import { Normalize } from "styled-normalize"
+import { ThemeProvider, createGlobalStyle } from "styled-components"
 
 import theme from "../config/theme"
 import Header from "./Header"
-import "./Layout.css"
-import "./LayoutCustomization.css"
+import Box from "./Box"
+
+const GlobalStyle = createGlobalStyle`
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    background-color: ${props => props.theme.colors.bodyBackground};
+    color: ${props => props.theme.colors.bodyText};
+    font-family: ${props => props.theme.fonts.body};
+    font-size: 1.6rem;
+  }
+
+  img:not([src*="*.svg"]) {
+    filter: grayscale(50%);
+  }
+`
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -28,21 +46,23 @@ const Layout = ({ children }) => {
 
   return (
     <ThemeProvider theme={theme}>
+      <Normalize />
+      <GlobalStyle />
+      <Helmet>
+        <link
+          href="https://fonts.googleapis.com/css?family=Kameron&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap"
+          rel="stylesheet"
+        />
+      </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <Box px={6} py={4}>
+        {children}
+      </Box>
+      <Box p={6}>&copy; fmoliveira.dev</Box>
     </ThemeProvider>
   )
 }

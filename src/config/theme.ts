@@ -5,7 +5,9 @@ export default {
 
     bodyBackground: "#20222E",
     bodyText: "#AAB0BC",
+
     linkText: "#A8BBDD",
+    linkHoverText: "#84ABF2",
   },
   breakpoints: {
     sm: "40em",
