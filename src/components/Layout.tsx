@@ -32,7 +32,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   img:not([src*="*.svg"]) {
-    filter: grayscale(50%);
+    filter: grayscale(35%);
   }
 `
 
