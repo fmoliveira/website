@@ -7,9 +7,11 @@ import Title from "./Title"
 
 const Header = ({ siteTitle }) => (
   <Box px={[4, 6]} py={[4, 5]} bg="headerBackground">
-    <Title as="h1">
-      <Link to="/">{siteTitle}</Link>
-    </Title>
+    <Box m="0 auto" maxWidth={800}>
+      <Title as="h1">
+        <Link to="/">{siteTitle}</Link>
+      </Title>
+    </Box>
   </Box>
 )
 

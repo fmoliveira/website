@@ -62,7 +62,9 @@ const Layout = ({ children }) => {
         />
       </Helmet>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <Box p={[4, 6]}>{children}</Box>
+      <Box m="0 auto" p={[4, 6]} maxWidth={800}>
+        {children}
+      </Box>
     </ThemeProvider>
   )
 }
