@@ -1,10 +1,9 @@
 import styled from "styled-components"
-import { color } from "styled-system"
 
 const Title = styled.span`
   font-family: ${props => props.theme.fonts.heading};
   margin: 0;
-  ${color}
+  color: ${props => props.theme.colors.titleText};
 
   a {
     text-decoration: none;

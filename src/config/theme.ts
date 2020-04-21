@@ -5,9 +5,10 @@ export default {
 
     bodyBackground: "#20222E",
     bodyText: "#AAB0BC",
+    titleText: "#A1B2D5",
 
-    linkText: "#A8BBDD",
-    linkHoverText: "#84ABF2",
+    linkText: "#A1BEF4",
+    linkHoverText: "#739FF2",
   },
   breakpoints: ["40em", "52em", "64em", "80em"],
   fonts: {
