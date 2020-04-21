@@ -8,8 +8,6 @@ import theme from "../config/theme"
 import Header from "./Header"
 import Box from "./Box"
 
-const year = new Date().getFullYear()
-
 const GlobalStyle = createGlobalStyle`
   html {
     font-size: 62.5%;
