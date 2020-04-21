@@ -16,9 +16,6 @@ const IndexPage = () => (
     <Box>
       <Title as="h2">Hello, I'm Filipe!</Title>
       <Inline py={4} space={5}>
-        <Box minWidth={150}>
-          <Avatar />
-        </Box>
         <Stack space={4}>
           <Text>
             I'm a Freelance Software Engineer from Brazil. I enjoy coding with
