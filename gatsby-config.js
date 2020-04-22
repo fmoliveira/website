@@ -5,19 +5,18 @@ module.exports = {
       options: {},
     },
   ],
-  // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
-    description: `My site description...`,
+    title: `fmoliveira.dev`,
+    author: `Filipe Oliveira`,
+    description: `I'm a Software Engineer in love with Frontend Engineering, Design Systems and Accessibility.`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/tfmoliveira`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/fmoliveira`,
       },
     ],
   },

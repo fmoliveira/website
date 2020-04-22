@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-blog-theme",
+  "name": "fmoliveira.dev",
   "private": true,
-  "version": "0.0.1",
+  "version": "20.4.22",
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",

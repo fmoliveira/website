@@ -1,16 +1,10 @@
 import React, { Fragment } from "react"
 import { Styled } from "theme-ui"
 
-/**
- * Change the content to add your own bio
- */
-
 export default () => (
   <Fragment>
-    This is where <Styled.a href="http://example.com/">your name</Styled.a>
-    {` `}
-    goes.
-    <br />
-    Or whatever, you make the rules.
+    Hey! I'm <Styled.a href="https://fmoliveira.dev">Filipe Oliveira</Styled.a>,
+    a Frontend Engineer from Brazil! I write about my learning process and
+    experiences with React, TypeScript, Design Systems and Accessibility.
   </Fragment>
 )
