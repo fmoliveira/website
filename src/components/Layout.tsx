@@ -16,7 +16,7 @@ const NavLink: FC<LinkProps> = ({ children, to }) => (
 );
 
 const Layout: FC = ({ children }) => (
-  <div className="m-8">
+  <div className="container mx-auto px-8 py-4">
     <Helmet titleTemplate="%s - fmoliveira.dev">
       <title>Welcome</title>
     </Helmet>
