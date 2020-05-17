@@ -14,6 +14,7 @@ interface Props {
             title: string;
             date: string;
           };
+          slug: string;
         };
       }[];
     };
@@ -23,9 +24,7 @@ interface Props {
 const Index: FC<Props> = ({ data }) => (
   <Layout>
     <Bio />
-    <PostsList
-      posts={data.allMarkdownRemark.edges.map((edge) => edge.node.frontmatter)}
-    />
+    <PostsList posts={data.allMarkdownRemark.edges.map((edge) => edge.node)} />
   </Layout>
 );
 
@@ -37,6 +36,9 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+          }
+          fields {
+            slug
           }
         }
       }
