@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
-import "./layout.css";
+import Layout from "../components/Layout";
 
-const Index: FC = () => <div>Hello TypeScript!</div>;
+const Index: FC = () => <Layout>Hello TypeScript!</Layout>;
 
 export default Index;
