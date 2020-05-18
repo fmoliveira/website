@@ -12,6 +12,7 @@ interface Props {
         node: {
           frontmatter: {
             title: string;
+            type: string;
             date: string;
           };
           fields: {
@@ -38,6 +39,7 @@ export const query = graphql`
         node {
           frontmatter {
             title
+            type
             date(formatString: "DD MMMM, YYYY")
           }
           fields {
