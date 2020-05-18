@@ -24,7 +24,7 @@ interface Props {
 
 const Posts: FC<Props> = ({ data }) => (
   <Layout>
-    <h2 className="text-xl text-yellow-500">All Posts</h2>
+    <h1>All Posts</h1>
     <PostsList posts={data.allMarkdownRemark.edges.map((edge) => edge.node)} />
   </Layout>
 );

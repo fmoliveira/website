@@ -3,6 +3,48 @@
 @tailwind utilities;
 
 body {
-  background-color: #232323;
-  color: #f9f9f9;
+  @apply bg-gray-900 text-gray-100;
+}
+
+header {
+  @apply text-3xl mb-4 text-teal-300;
+}
+
+h1 {
+  @apply text-2xl mb-4;
+}
+
+h2 {
+  @apply text-xl my-4;
+}
+
+h3 {
+  @apply text-lg my-3;
+}
+
+a {
+  @apply text-teal-100;
+}
+
+a:hover {
+  @apply text-teal-200;
+}
+
+.markdown blockquote {
+  @apply -ml-8 mb-8;
+}
+
+.markdown ul {
+  @apply list-disc mb-8;
+  text-indent: 1.5em;
+}
+
+.markdown ul ul {
+  @apply mb-0;
+  text-indent: 3em;
+}
+
+.markdown ol {
+  @apply list-decimal mb-8;
+  text-indent: 1.5em;
 }

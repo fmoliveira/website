@@ -9,9 +9,7 @@ interface LinkProps {
 
 const NavLink: FC<LinkProps> = ({ children, to }) => (
   <li className="mr-6">
-    <a className="text-blue-500 hover:text-blue-700" href={to}>
-      {children}
-    </a>
+    <a href={to}>{children}</a>
   </li>
 );
 
@@ -20,8 +18,8 @@ const Layout: FC = ({ children }) => (
     <Helmet titleTemplate="%s - fmoliveira.dev">
       <title>Welcome</title>
     </Helmet>
-    <h1 className="text-3xl">fmoliveira.dev</h1>
-    <ul className="flex mb-4">
+    <header>fmoliveira.dev</header>
+    <ul className="flex mb-4 list-none">
       <NavLink to="/">Home</NavLink>
       <NavLink to="/posts">Posts</NavLink>
       <NavLink to="/garden">Garden</NavLink>

@@ -17,10 +17,11 @@ interface Props {
 
 const Post: FC<Props> = ({ data }) => (
   <Layout>
-    <h2 className="text-xl text-yellow-500 mb-4">
-      {data.markdownRemark.frontmatter.title}
-    </h2>
-    <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
+    <h1>{data.markdownRemark.frontmatter.title}</h1>
+    <div
+      className="markdown"
+      dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }}
+    />
   </Layout>
 );
 

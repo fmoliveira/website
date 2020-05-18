@@ -9,7 +9,7 @@ I'm always working to improve my setup, both software and hardware. As a fully r
 
 My current setup is:
 
-# Software
+## Software
 
 - OS: macOS Catalina
 - Fundamental apps
@@ -39,7 +39,7 @@ My current setup is:
   - Recording: OBS
   - Editing: iMovie
 
-# Hardware
+## Hardware
 
 - Gaming Laptop: Dell G7 7588
 - CPU: i7-8750H 2.20GHz
@@ -49,7 +49,7 @@ My current setup is:
 - Integrated graphics: Intel UHD Graphics 630
 - Dedicated graphics: NVIDIA GeForce GTX 1060 Max-Q 6GB
 
-# Peripherals
+## Peripherals
 
 - Monitor: LG Ultrawide 29WK500
 - Keyboard: Razer Blackwidow Lite (mechanical and tenkeyless)
@@ -59,7 +59,7 @@ My current setup is:
 - Bluetooth: Orico USB Adapter BTA-403-BK
 - WiFi: TP-Link USB Adapter TL-WN823N
 
-# Accessories
+## Accessories
 
 - Gaming Chair: Alpha Gamer Vega
 - Monitor mount: ELG F80n

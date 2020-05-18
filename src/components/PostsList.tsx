@@ -14,13 +14,16 @@ interface Props {
 }
 
 const PostsList: FC<Props> = ({ posts }) => (
-  <ul>
+  <div>
     {posts.map((post) => (
-      <li>
-        <Link to={post.fields.slug}>{post.frontmatter.title}</Link>
-      </li>
+      <Link
+        to={post.fields.slug}
+        className="block my-1 p-2 rounded-md hover:bg-gray-800"
+      >
+        {post.frontmatter.title}
+      </Link>
     ))}
-  </ul>
+  </div>
 );
 
 export default PostsList;
