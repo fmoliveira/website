@@ -23,7 +23,7 @@ const Layout: FC = ({ children }) => (
       <ul className="flex mb-4 list-none">
         <NavLink to="/">Home</NavLink>
         <NavLink to="/posts">Posts</NavLink>
-        {/* <NavLink to="/garden">Garden</NavLink> */}
+        <NavLink to="/garden">Garden</NavLink>
         {/* <NavLink to="/lessons">Lessons</NavLink> */}
         {/* <NavLink to="/about">Contact</NavLink> */}
       </ul>

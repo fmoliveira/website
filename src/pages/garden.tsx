@@ -2,7 +2,6 @@ import React, { FC } from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import Bio from "../components/Bio";
 import PostsList from "../components/PostsList";
 
 interface Props {
@@ -24,17 +23,19 @@ interface Props {
   };
 }
 
-const Index: FC<Props> = ({ data }) => (
+const Garden: FC<Props> = ({ data }) => (
   <Layout>
-    <Bio />
-    <h1>Latest Content</h1>
+    <h1>All Notes</h1>
     <PostsList posts={data.allMarkdownRemark.edges.map((edge) => edge.node)} />
   </Layout>
 );
 
 export const query = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      filter: { frontmatter: { type: { eq: "garden" } } }
+      sort: { fields: [frontmatter___date], order: DESC }
+    ) {
       edges {
         node {
           frontmatter {
@@ -51,4 +52,4 @@ export const query = graphql`
   }
 `;
 
-export default Index;
+export default Garden;
