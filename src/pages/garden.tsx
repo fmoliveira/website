@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import { Helmet } from "react-helmet";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
@@ -25,6 +26,9 @@ interface Props {
 
 const Garden: FC<Props> = ({ data }) => (
   <Layout>
+    <Helmet>
+      <title>Garden</title>
+    </Helmet>
     <h1>All Notes</h1>
     <PostsList posts={data.allMarkdownRemark.edges.map((edge) => edge.node)} />
   </Layout>
