@@ -21,7 +21,8 @@ h6 {
 }
 
 header {
-  @apply text-3xl mb-4 text-teal-300;
+  @apply text-3xl mb-4;
+  color: #66e0ff;
 }
 
 h1 {
