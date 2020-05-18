@@ -21,12 +21,12 @@ h6 {
 }
 
 header {
-  @apply text-3xl mb-4;
+  @apply text-3xl my-4;
   color: #66e0ff;
 }
 
 h1 {
-  @apply text-2xl mb-4;
+  @apply text-3xl mb-4;
 }
 
 h2 {

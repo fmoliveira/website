@@ -18,14 +18,16 @@ const Layout: FC = ({ children }) => (
     <Helmet titleTemplate="%s - fmoliveira.dev">
       <title>Welcome</title>
     </Helmet>
-    <header>fmoliveira.dev</header>
-    <ul className="flex mb-4 list-none">
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/posts">Posts</NavLink>
-      <NavLink to="/garden">Garden</NavLink>
-      <NavLink to="/lessons">Lessons</NavLink>
-      <NavLink to="/about">Contact</NavLink>
-    </ul>
+    <div className="mb-12">
+      <header>fmoliveira.dev</header>
+      <ul className="flex mb-4 list-none">
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/posts">Posts</NavLink>
+        <NavLink to="/garden">Garden</NavLink>
+        <NavLink to="/lessons">Lessons</NavLink>
+        <NavLink to="/about">Contact</NavLink>
+      </ul>
+    </div>
     <div>{children}</div>
   </div>
 );
