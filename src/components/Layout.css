@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@900&display=swap");
 
 body {
   @apply bg-gray-900 text-gray-100 font-normal;
@@ -91,4 +91,8 @@ a:hover {
 
 .markdown li p {
   @apply mb-0;
+}
+
+.markdown strong {
+  @apply text-teal-300;
 }
