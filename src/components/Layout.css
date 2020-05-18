@@ -45,6 +45,10 @@ a:hover {
   @apply text-teal-200;
 }
 
+.markdown p {
+  @apply mb-4;
+}
+
 .markdown a {
   background-image: linear-gradient(
     90deg,
@@ -83,4 +87,8 @@ a:hover {
 .markdown ol {
   @apply list-decimal mb-8;
   text-indent: 1.5em;
+}
+
+.markdown li p {
+  @apply mb-0;
 }
