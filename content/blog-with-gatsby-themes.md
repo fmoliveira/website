@@ -30,7 +30,7 @@ npx gatsby new my-blog https://github.com/gatsbyjs/gatsby-starter-blog-theme
 
 Wait until the command finishes executing. Your folder structure should look similar to this:
 
-![The folder structure you get with this Gatsby starter abstract all complexity away](assets/hello-gatsby-folder-structure.jpg)
+![The folder structure you get with this Gatsby starter abstract all complexity away](/images/hello-gatsby-folder-structure.jpg)
 
 Now let's modify the following files:
 

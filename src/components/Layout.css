@@ -62,6 +62,10 @@ a:hover {
   -webkit-text-fill-color: rgba(255, 255, 255, 0.1);
 }
 
+.markdown img {
+  @apply my-8;
+}
+
 .markdown blockquote {
   @apply -ml-8 mb-8;
 }
