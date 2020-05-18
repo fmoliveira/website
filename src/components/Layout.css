@@ -2,8 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@900&display=swap");
+
 body {
-  @apply bg-gray-900 text-gray-100;
+  @apply bg-gray-900 text-gray-100 font-normal;
+  font-family: "Merriweather", serif;
+}
+
+header,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-black;
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
