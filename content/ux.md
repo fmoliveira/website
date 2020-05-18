@@ -18,6 +18,6 @@ Great initial reads:
 
 ## Others
 
-Resources to incorporate:
+Resources to assimilate:
 
 - Skeleton Screens: https://uxdesign.cc/what-you-should-know-about-skeleton-screens-a820c45a571a

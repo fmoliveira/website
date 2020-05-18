@@ -28,7 +28,7 @@ Some of the best practices that I follow:
 - Store UI state locally first, and move to a Context if you need to share it
 - Folder structure should be as flat as possible or it becomes a hornet's nest, and also it's easier to reason where to put something when the structure is flatter, and you get to move files across directories less often
 
-Resources to incorporate:
+Resources to assimilate:
 
 - https://reacttraining.com/blog/javascript-the-react-parts/
 - https://ryanlanciaux.com/blog/2020/02/14/better-testing-with-storybook/
