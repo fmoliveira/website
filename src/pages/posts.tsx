@@ -2,7 +2,6 @@ import React, { FC } from "react";
 import { graphql } from "gatsby";
 
 import Layout from "../components/Layout";
-import Bio from "../components/Bio";
 import PostsList from "../components/PostsList";
 
 interface Props {
@@ -23,10 +22,9 @@ interface Props {
   };
 }
 
-const Index: FC<Props> = ({ data }) => (
+const Posts: FC<Props> = ({ data }) => (
   <Layout>
-    <Bio />
-    <h2 className="text-xl text-yellow-500">Latest Posts</h2>
+    <h2 className="text-xl text-yellow-500">All Posts</h2>
     <PostsList posts={data.allMarkdownRemark.edges.map((edge) => edge.node)} />
   </Layout>
 );
@@ -49,4 +47,4 @@ export const query = graphql`
   }
 `;
 
-export default Index;
+export default Posts;

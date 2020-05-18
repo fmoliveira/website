@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 
 const Bio: FC = () => (
-  <div className="max-w-md my-8">
+  <div className="max-w-md mb-8">
     <h2 className="text-xl text-yellow-500">Hello, I'm Filipe!</h2>
     <p>
       I'm a Frontend Engineer from Brazil. I write about my learning process and
