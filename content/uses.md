@@ -44,7 +44,7 @@ My current setup is:
 - Gaming Laptop: Dell G7 7588
 - CPU: i7-8750H 2.20GHz
 - Memory: 16 GB RAM DDR4 2666MHz
-- Main storage: Liteon CV8 NVMe SSD 256GB
+- Main storage: Corsair MP510 NVMe SSD 480GB
 - Secondary storage: WD HDD 1TB 5400rpm
 - Integrated graphics: Intel UHD Graphics 630
 - Dedicated graphics: NVIDIA GeForce GTX 1060 Max-Q 6GB
