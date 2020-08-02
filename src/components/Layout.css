@@ -68,6 +68,8 @@ a:hover {
 
 .markdown img {
   @apply my-8;
+  display: inline-block;
+  opacity: 0.8;
 }
 
 .markdown blockquote {
