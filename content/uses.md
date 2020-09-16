@@ -11,33 +11,27 @@ My current setup is:
 
 ## Software
 
-- OS: macOS Catalina
+- OS: Windows 10
 - Fundamental apps
-  - Main browsers: Chrome, Firefox Developer Edition, Sizzy
-  - Cloud storage services: Dropbox, Google Drive, iCloud
-  - Note taking: Notion, Bear
-  - Productivity: Alfred
-  - Screenshots: Skitch, Gifox, Snappy
+  - Main browser: Chrome
+  - Cloud storage services: Dropbox, Google Drive
+  - Note taking: Bear, Obsidian, Notion
   - Password manager: 1Password
-  - Music: Spotify, Mac Media Key Forwarder
-- Communication
-  - Email: Spark
-  - Chat: Slack, Discord, Skype
+  - Music: Spotify
 - Development
   - Code editor: VS Code
-  - Editor font: Fira Code + ligatures
-  - Git tools: GitHub Desktop
-  - Terminal: stock terminal, Homebrew theme, font Andale Mono 16pt
+  - Editor font: MonoLisa + ligatures
+  - Terminal: Windows Terminal + custom theme
   - Shell: zsh + ohmyzsh
   - Node version management: n
   - Database tools: TablePlus, MySQL Workbench
   - Network tools: Postman, ngrok
 - Design
-  - Adobe XD
   - Figma
+  - Adobe XD
 - Screencasting
   - Recording: OBS
-  - Editing: iMovie
+  - Editing: DaVinci Resolve
 
 ## Hardware
 
@@ -56,8 +50,6 @@ My current setup is:
 - Mouse: Logitech MX Master 2S
 - Headphones: JBL Everest V310BT Space Grey
 - Microphone: Blue Snowball iCE
-- Bluetooth: Orico USB Adapter BTA-403-BK
-- WiFi: TP-Link USB Adapter TL-WN823N
 
 ## Accessories
 
