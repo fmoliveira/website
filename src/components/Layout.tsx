@@ -24,23 +24,31 @@ const NavLink: FC<LinkProps> = ({ children, to }) => {
 };
 
 const Layout: FC = ({ children }) => (
-  <div className="container mx-auto px-8 py-4">
-    <Helmet titleTemplate="%s - fmoliveira.dev">
-      <title>Welcome</title>
-    </Helmet>
-    <div className="mb-12">
-      <header>fmoliveira.dev</header>
-      <ul className="flex mb-4 list-none">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/posts">Posts</NavLink>
-        <NavLink to="/garden">Garden</NavLink>
-        {/* <NavLink to="/lessons">Lessons</NavLink> */}
-        {/* <NavLink to="/about">Contact</NavLink> */}
-        <NavLink to="https://twitter.com/tfmoliveira">Twitter</NavLink>
-      </ul>
+  <>
+    <div className="container mx-auto px-8 py-4">
+      <Helmet titleTemplate="%s - fmoliveira.dev">
+        <title>Welcome</title>
+      </Helmet>
+      <div className="mb-12">
+        <header>fmoliveira.dev</header>
+        <ul className="flex mb-4 list-none">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/posts">Posts</NavLink>
+          <NavLink to="/garden">Garden</NavLink>
+          {/* <NavLink to="/lessons">Lessons</NavLink> */}
+          {/* <NavLink to="/about">Contact</NavLink> */}
+          <NavLink to="https://twitter.com/tfmoliveira">Twitter</NavLink>
+        </ul>
+      </div>
+      <div>{children}</div>
     </div>
-    <div>{children}</div>
-  </div>
+    <script
+      async
+      defer
+      data-domain="fmoliveira.dev"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+  </>
 );
 
 export default Layout;
