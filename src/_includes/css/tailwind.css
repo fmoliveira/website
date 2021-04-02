@@ -14,6 +14,22 @@
   h4,
   h5,
   h6 {
-    @apply font-sans font-black;
+    @apply font-sans text-gray-100;
+  }
+
+  header {
+    color: #66e0ff;
+  }
+
+  h1 {
+    @apply mb-8 text-3xl font-black;
+  }
+
+  h2 {
+    @apply mb-2 text-xl;
+  }
+
+  h3 {
+    @apply mb-1 text-lg;
   }
 }

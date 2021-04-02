@@ -13,12 +13,12 @@
     {{ css | safe }}
   </style>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
 </head>
-<body class="min-h-screen bg-gray-800 text-gray-100 px-8 py-4">
+<body class="min-h-screen bg-gray-800 text-gray-200 px-8 py-4">
   
   <div class="navbar mb-10 grid gap-5 lg:grid-rows-1">
-    <header class="text-3xl col-start-1 justify-self-start">fmoliveira.dev</header>
+    <header class="text-2xl font-black col-start-1 justify-self-start place-self-center">fmoliveira.dev</header>
     <input id="menu-button" type="checkbox" class="menu-checkbox" />
     <label for="menu-button" class="w-10 h-10 col-start-2 justify-self-end grid place-items-center cursor-pointer rounded-md hover:bg-gray-700 lg:hidden">
       <span class="menu-icon" />
@@ -28,10 +28,6 @@
       <a class="px-4 py-3 rounded-md hover:bg-gray-700" href="/blog">Blog</a>
       <a class="px-4 py-3 rounded-md hover:bg-gray-700" href="/contact">Contact</a>
     </nav>
-  </div>
-
-  <div class="pb-10">
-    <h1>{{ title }}</h1>
   </div>
 
   <main>{{ content | safe }}</main>
