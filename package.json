@@ -9,7 +9,7 @@
   "scripts": {
     "build": "yarn build:tailwind && yarn build:eleventy",
     "build:eleventy": "eleventy",
-    "build:tailwind": "tailwindcss build -o public/tailwind.css",
+    "build:tailwind": "tailwindcss build -o public/css/tailwind.css",
     "prestart": "yarn build:tailwind",
     "start": "eleventy --serve"
   },
