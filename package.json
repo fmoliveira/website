@@ -7,10 +7,16 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "eleventy",
+    "build": "yarn build:tailwind && yarn build:eleventy",
+    "build:eleventy": "eleventy",
+    "build:tailwind": "tailwindcss build -o public/tailwind.css",
+    "prestart": "yarn build:tailwind",
     "start": "eleventy --serve"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.12.1"
+    "@11ty/eleventy": "^0.12.1",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.9",
+    "tailwindcss": "^2.0.4"
   }
 }
