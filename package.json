@@ -7,9 +7,9 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "build": "yarn build:tailwind && yarn build:eleventy",
+    "build": "yarn build:eleventy && yarn build:tailwind",
     "build:eleventy": "eleventy",
-    "build:tailwind": "tailwindcss build -o public/css/tailwind.css",
+    "build:tailwind": "tailwindcss build ./src/_includes/css/tailwind.css -o public/css/tailwind.css",
     "prestart": "yarn build:tailwind",
     "start": "eleventy --serve"
   },
