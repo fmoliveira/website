@@ -5,5 +5,12 @@
   "repository": "git@github.com:fmoliveira/website.git",
   "author": "Filipe Oliveira <hi@fmoliveira.dev>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
 }
