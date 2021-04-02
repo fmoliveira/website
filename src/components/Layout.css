@@ -77,18 +77,18 @@ a:hover {
 }
 
 .markdown ul {
-  @apply list-disc mb-8;
-  text-indent: 1.5em;
-}
-
-.markdown ul ul {
-  @apply mb-0;
-  text-indent: 3em;
+  @apply list-disc ml-0 pl-10;
+  text-indent: 0;
 }
 
 .markdown ol {
-  @apply list-decimal mb-8;
-  text-indent: 1.5em;
+  @apply list-decimal ml-0 pl-10;
+  text-indent: 0;
+}
+
+.markdown ul li,
+.markdown ol li {
+  @apply pl-2;
 }
 
 .markdown li p {
