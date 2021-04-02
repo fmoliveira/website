@@ -1,0 +1,9 @@
+{
+  "name": "fmoliveira",
+  "version": "21.4.1",
+  "main": "index.js",
+  "repository": "git@github.com:fmoliveira/website.git",
+  "author": "Filipe Oliveira <hi@fmoliveira.dev>",
+  "license": "MIT",
+  "private": true
+}
