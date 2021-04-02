@@ -3,6 +3,10 @@ module.exports = function (eleventyConfig) {
     excerpt: extractExcerpt,
   });
 
+  eleventyConfig.addFilter("sortByDate", (items) => {
+    return items.sort((a, b) => b.date - a.date);
+  });
+
   return {
     dir: {
       input: "src",
