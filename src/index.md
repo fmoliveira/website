@@ -3,7 +3,7 @@ title: "Welcome"
 layout: "base.njk"
 ---
 
-<div class="-mx-8 -my-4 px-8 pt-10 pb-20 bg-gray-900">
+<div class="-mx-8 mb-10 px-8 pt-10 pb-16 bg-gray-900">
 
 # Hello, I'm Filipe!
 
