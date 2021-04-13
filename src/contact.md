@@ -10,6 +10,6 @@ Interested in doing contract work?
 
 I'm available for consulting work with TypeScript, React, Next.js and Testing.
 
-Reach me out on the email <a href="mailto:hi@fmoliveira.dev" class="text-blue-300 hover:text-blue-200 hover:underline">hi@fmoliveira.dev</a>.
+Reach me out on the email <a href="mailto:hi@fmoliveira.dev">hi@fmoliveira.dev</a>.
 
 </div>
