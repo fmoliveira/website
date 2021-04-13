@@ -2,7 +2,7 @@
 title: "I'm loving Eleventy!"
 ---
 
-I've migrated my blog from Gatsby, and before that, I've used several other static site generators. I was looking for something simple to maintain as Jekyll, but without having to go through the dreaded task of installing Ruby and hunting precious gems. That must work wonders for people with at least a basic familiarity with Ruby, but it wasn't sustainable for me.
+I've migrated my blog from Gatsby, and before that, I've used several other static site generators. I was looking for something simple to maintain as Jekyll, but without having to go through the dreaded task of installing Ruby and hunting precious gems. That must work wonders for people with at least a basic familiarity with Ruby's ecosystem, but it wasn't sustainable for me.
 
 I didn't test-drive all the static site generators I'd like to, but Eleventy changed my perspective. Bootstrapping a new blog has always been boring. I was never satisfied with any of the alternatives I've tried, either because they were too limited or too flexible. So I kept tearing down old blogs and creating new ones. Learning new tools is generally fun until I had to learn countless new tools to try to set up that same thing.
 
