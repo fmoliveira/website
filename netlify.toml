@@ -1,0 +1,4 @@
+[build]
+  publish = "public"
+  command = "yarn build"
+  environment = { NODE_VERSION = "14.16" }
