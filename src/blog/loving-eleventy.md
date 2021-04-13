@@ -19,7 +19,7 @@ I can't deny that I miss the hell out of JSX. It really breaks my mind to do cer
 
 The best thing I'm loving about Eleventy is that you just have to know vanilla JavaScript to extend it to your likings. Want to filter some data? Create a filter function on the config file. Want to fetch data from the cloud? No messing around with plugins, just write a JS function to fetch it and you're done!
 
-This is the quickest blog that I've set up from scratch to a point that I was happy enough to deploy, and that happened in just 3 evening sessions of a couple of hours coding. It's not yet super pretty, but it looks minimally good IMO, I can quickly write blogs, and it's a piece of cake to add dynamic data to it.
+This is the quickest blog that I've set up from scratch to a point that I was happy enough to deploy, and that happened in just 3 evening sessions of a couple of hours coding. It's not yet super pretty, but it looks minimally good IMO, I can quickly write blogs, and it's a piece of cake to add dynamic data to it. That checks all the boxes I need for now.
 
 This post was not sponsored if that's what you're thinking, but I couldn't help myself but share my newfound love for Eleventy. It strikes a really good balance between simplicity and flexibility, and I'm excited to continue working on this blog that I now call home.
 
