@@ -46,6 +46,14 @@
     }
   }
 
+  blockquote {
+    @apply max-w-3xl pl-4 py-3 border-l-2 border-blue-300 text-lg leading-8;
+  }
+
+  blockquote + p {
+    @apply mt-4;
+  }
+
   ul {
     @apply list-disc ml-8;
   }

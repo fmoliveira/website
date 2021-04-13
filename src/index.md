@@ -7,7 +7,7 @@ layout: "base.njk"
 
 # Hello, I'm Filipe!
 
-<blockquote class="max-w-3xl pl-4 border-l-2 border-blue-300 text-lg leading-8">
+<blockquote>
 I'm a Software Engineer working with Web Development.
 
 My primary expertise is Frontend Development with TypeScript and React, and automated tests on top of Jest, Testing Library and Cypress.
