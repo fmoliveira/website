@@ -17,8 +17,14 @@ My primary expertise is Frontend Development with TypeScript and React, and auto
 
 <div class="leading-10">
 
-I'm available for consulting work with TypeScript, React, Next.js and Testing.
+In this space you'll find my recent write ups about what I've been learning.
 
-<a href="/contact" class="text-blue-300 hover:text-blue-200 hover:underline">Contact me to know more</a>.
+You can follow me on the social networks below:
+
+<ul class="list-disc ml-8">
+  <li><a href="https://twitter.com/tfmoliveira" class="text-blue-100 hover:text-blue-400">Twitter</a></li>
+  <li><a href="https://github.com/fmoliveira" class="text-blue-100 hover:text-blue-400">GitHub</a></li>
+  <li><a href="https://www.linkedin.com/in/tfmoliveira/" class="text-blue-100 hover:text-blue-400">LinkedIn</a></li>
+</ul>
 
 </div>
