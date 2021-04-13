@@ -18,5 +18,8 @@
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.9",
     "tailwindcss": "^2.0.4"
+  },
+  "devDependencies": {
+    "node-fetch": "^2.6.1"
   }
 }

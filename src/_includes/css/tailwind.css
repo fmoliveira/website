@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply font-serif;
+    @apply font-serif pb-12;
   }
 
   header,
@@ -31,6 +31,10 @@
 
   h3 {
     @apply mb-1 text-lg;
+  }
+
+  p + p {
+    @apply my-4;
   }
 
   a {

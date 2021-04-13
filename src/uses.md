@@ -67,3 +67,19 @@ And last but not least, the software I use everyday:
     <li>Shell: Windows Terminal or Mac's Terminal.app, both with ohmyzsh and plugins</li>
   </ul>
 </div>
+
+Want a bonus? Sure, let's see if this blog can fetch my `extensions.json` file from the gist above. Here you go:
+
+<div class="my-10">
+  <h2>VS Code Extensions</h2>
+
+  <ul>
+    {% for extension in extensions %}
+  <li><a href="{{ extension.url }}" target="_blank" rel="noopener noreferrer">{{ extension.name }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
+<p>Yasss, that works! <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a> is the newest gadget in my tool belt and I'm really loving it, BTW!</p>
+
+<p>Thanks for checking out my setup, I hope it inspires you in some way!</p>
