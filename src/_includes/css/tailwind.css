@@ -17,10 +17,6 @@
     @apply font-sans text-gray-100;
   }
 
-  header {
-    color: #66e0ff;
-  }
-
   h1 {
     @apply mb-8 text-3xl font-black;
   }
