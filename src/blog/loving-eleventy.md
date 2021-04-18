@@ -15,7 +15,7 @@ I think I've finally found a balance on it. And dang, I wonder why I didn't try 
 
 The starting canvas isn't pretty, and I didn't like onboarding on the docs at first glance - but now I think that was just a prejudice from being spoiled with JSX. It's quick to get the hang of it. It's config-less to start, but I recommend changing the input directory from root to `src` to keep things more organised.
 
-I can't deny that I miss the hell out of JSX. It really breaks my mind to do certain things without extracting reusable components, but instead, I'm just @applying common styles to my TailwindCSS main stylesheet and it's working out fine.
+I can't deny that I miss JSX a lot. It really breaks my mind to do certain things without extracting reusable components, but instead, I'm just @applying common styles to my TailwindCSS main stylesheet and it's working out fine.
 
 The best thing I'm loving about Eleventy is that you just have to know vanilla JavaScript to extend it to your likings. Want to filter some data? Create a filter function on the config file. Want to fetch data from the cloud? No messing around with plugins, just write a JS function to fetch it and you're done!
 
