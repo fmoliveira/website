@@ -1,5 +1,6 @@
 ---
 title: "I'm loving Eleventy!"
+description: "My thoughts on static site productivity."
 ---
 
 I've migrated my blog from Gatsby, and before that, I've used several other static site generators. I was looking for something simple to maintain as Jekyll, but without having to go through the dreaded task of installing Ruby and hunting precious gems. That must work wonders for people with at least a basic familiarity with Ruby's ecosystem, but it wasn't sustainable for me.
