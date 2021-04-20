@@ -29,7 +29,7 @@ I've been working 100% remotely since early 2018 and have made several upgrades 
     <li>Monitor: LG Ultrawide 29WK500</li>
     <li>Keyboard: Razer Blackwidow Lite</li>
     <li>Mouse: Logitech MX Master 2S</li>
-    <li>Headphones: JBL Everest V310BT</li>
+    <li>Headphones: Sennheiser HD 350BT</li>
     <li>Ear buds: Edifier TWS1</li>
     <li>Webcam: Logitech C270 HD</li>
     <li>Speakers: Logitech Z50</li>
