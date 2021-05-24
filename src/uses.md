@@ -56,8 +56,9 @@ And last but not least, the software I use everyday:
   <h2>Software</h2>
 
   <ul>
-    <li>Primary OS: Windows 10</li>
-    <li>Secondary OS: MacOS Catalina</li>
+    <li>Primary OS: macOS Big Sur</li>
+    <li>Secondary OS: Windows 10 Pro</li>
+    <li>Boot loader: OpenCore</li>
     <li>Preferred browsers: Chrome and Firefox</li>
     <li>Cloud storage: Dropbox</li>
     <li>Note taking: Obsidian and Notion</li>
