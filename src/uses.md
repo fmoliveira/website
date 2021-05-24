@@ -56,20 +56,18 @@ And last but not least, the software I use everyday:
   <h2>Software</h2>
 
   <ul>
+    <li>Boot loader: OpenCore ❤️</li>
     <li>Primary OS: macOS Big Sur</li>
     <li>Secondary OS: Windows 10 Pro</li>
-    <li>Boot loader: OpenCore</li>
     <li>Preferred browsers: Chrome and Firefox</li>
-    <li>Cloud storage: Dropbox</li>
+    <li>Cloud storage: Google Drive</li>
     <li>Note taking: Obsidian and Notion</li>
-    <li>Code editor: VS Code (my <a href="https://gist.github.com/fmoliveira/8bbbbecc8cbb35a0da3e66b52522318e#file-settings-json" target="_blank" rel="noopener noreferrer">settings</a> and <a href="https://gist.github.com/fmoliveira/8bbbbecc8cbb35a0da3e66b52522318e#file-extensions-json" target="_blank" rel="noopener noreferrer">extensions</a>)</li>
-    <li>Coding font: Mono Lisa</li>
+    <li>Shell: Terminal.app or Windows Terminal, both with ohmyzsh and plugins</li>
     <li>Editor and terminal theme: Dracula</li>
-    <li>Shell: Windows Terminal or Mac's Terminal.app, both with ohmyzsh and plugins</li>
+    <li>Coding font: Mono Lisa</li>
+    <li>Code editor: VS Code (my <a href="https://gist.github.com/fmoliveira/8bbbbecc8cbb35a0da3e66b52522318e#file-settings-json" target="_blank" rel="noopener noreferrer">settings</a> and <a href="https://gist.github.com/fmoliveira/8bbbbecc8cbb35a0da3e66b52522318e#file-extensions-json" target="_blank" rel="noopener noreferrer">extensions</a>)</li>
   </ul>
 </div>
-
-Want a bonus? Sure, let's see if this blog can fetch my `extensions.json` file from the gist above. Here you go:
 
 <div class="my-10">
   <h2>VS Code Extensions</h2>
