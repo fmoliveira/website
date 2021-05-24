@@ -79,6 +79,4 @@ And last but not least, the software I use everyday:
   </ul>
 </div>
 
-<p>Yasss, that works! <a href="https://www.11ty.dev/" target="_blank" rel="noopener noreferrer">Eleventy</a> is the newest gadget in my tool belt and I'm really loving it, BTW!</p>
-
 <p>Thanks for checking out my setup, I hope it inspires you in some way!</p>
