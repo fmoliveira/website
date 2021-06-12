@@ -13,7 +13,7 @@ I work from a gaming laptop, which I acquired exactly because I wanted to sporad
   <ul class="list-disc ml-8">
     <li>Laptop vendor/model: Dell G7</li>
     <li>Processor: Intel Core i7-8750H @ 2.20GHz (up to 4.10GHz)</li>
-    <li>RAM: 16GB DDR4 2666MHz</li>
+    <li>RAM: Crucial 32GB DDR4 2666MHz</li>
     <li>Primary SSD: Corsair MP510 NVMe 480GB</li>
     <li>Secondary SSD: Liteon CV8 256GB</li>
     <li>GPU: NVIDIA Geforce GTX 1060 Max-Q 6GB</li>
