@@ -31,7 +31,7 @@ I've been working 100% remotely since early 2018 and have made several upgrades 
     <li>Mouse: Logitech MX Master 2S</li>
     <li>Headphones: Sennheiser HD 350BT</li>
     <li>Ear buds: Edifier TWS1</li>
-    <li>Webcam: Logitech C270 HD</li>
+    <li>Webcam: Logitech C922 Pro Stream</li>
     <li>Speakers: Logitech Z50</li>
     <li>Microphone: Blue Snowball iCE</li>
     <li>Key Lights: 2x Elgato Key Light Air</li>
