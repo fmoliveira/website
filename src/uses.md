@@ -20,7 +20,7 @@ I work from a gaming laptop, which I acquired exactly because I wanted to sporad
   </ul>
 </div>
 
-I've been working 100% remotely since early 2018 and have made several upgrades to my peripherals that I really enjoy:
+I've been working from home since early 2018 and made several upgrades to my peripherals that I really enjoy:
 
 <div class="my-10">
   <h2>Peripherals</h2>
@@ -31,9 +31,9 @@ I've been working 100% remotely since early 2018 and have made several upgrades 
     <li>Mouse: Logitech MX Master 2S</li>
     <li>Headphones: Sennheiser HD 350BT</li>
     <li>Ear buds: Edifier TWS1</li>
-    <li>Webcam: Logitech C922 Pro Stream</li>
+    <li>Webcam: Logitech C922 Pro Stream (the embedded microphone is amazing for calls)</li>
     <li>Speakers: Logitech Z50</li>
-    <li>Microphone: Blue Snowball iCE</li>
+    <li>Microphone: Blue Snowball iCE (used only to record screencasts)</li>
     <li>Key Lights: 2x Elgato Key Light Air</li>
   </ul>
 </div>
@@ -61,7 +61,7 @@ And last but not least, the software I use everyday:
     <li>Secondary OS: Windows 10 Pro</li>
     <li>Preferred browsers: Chrome and Firefox</li>
     <li>Cloud storage: Google Drive</li>
-    <li>Note taking: Obsidian and Notion</li>
+    <li>Note taking: Notion mostly, legacy stuff on Obsidian</li>
     <li>Shell: Terminal.app or Windows Terminal, both with ohmyzsh and plugins</li>
     <li>Editor and terminal theme: Dracula</li>
     <li>Coding font: Mono Lisa</li>
