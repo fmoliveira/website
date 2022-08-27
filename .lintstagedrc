@@ -1,3 +1,6 @@
 {
-	"*.{ts,tsx,js,jsx,json,html,css}": "prettier --write"
+	"*.{ts,tsx,js,jsx,json,html,css}": [
+		"prettier --write",
+		"next lint"
+	]
 }
