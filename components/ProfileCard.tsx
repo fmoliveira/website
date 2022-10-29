@@ -25,7 +25,7 @@ export default function ProfileCard({ name, role, links = [] }: Props) {
 									className="block p-2 bg-slate-600 border hover:bg-slate-500 border-slate-500 rounded"
 									href={url}
 									target="_blank"
-									rel="noreferrer noopener"
+									rel="noreferrer noopener me"
 								>
 									{title}
 								</a>

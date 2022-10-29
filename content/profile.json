@@ -4,6 +4,7 @@
 	"links": [
 		{ "title": "GitHub", "url": "https://github.com/fmoliveira" },
 		{ "title": "LinkedIn", "url": "https://www.linkedin.com/in/tfmoliveira/" },
-		{ "title": "Twitter", "url": "https://twitter.com/tfmoliveira" }
+		{ "title": "Twitter", "url": "https://twitter.com/tfmoliveira" },
+		{ "title": "Mastodon", "url": "https://fosstodon.org/@fmoliveira" }
 	]
 }
